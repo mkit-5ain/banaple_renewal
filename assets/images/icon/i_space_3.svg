@@ -1,0 +1,37 @@
+<svg xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" width="48" height="48" viewBox="0 0 48 48">
+    <defs>
+        <clipPath id="ddusu14iyc">
+            <path data-name="사각형 87" style="fill:#ff5757" d="M0 0h48v48H0z"/>
+        </clipPath>
+        <clipPath id="i80m1wjj2d">
+            <use xlink:href="#czmi8d36qa"/>
+        </clipPath>
+        <clipPath id="0xt1zhc5de">
+            <use xlink:href="#giprpkiy8b"/>
+        </clipPath>
+    </defs>
+    <g style="clip-path:url(#ddusu14iyc)">
+        <g data-name="사각형 203" style="stroke-width:3px;stroke:#000;fill:none">
+            <path style="stroke:none" d="M0 0h48v9H0z" transform="translate(0 23.946)"/>
+            <path style="fill:none" d="M1.5 1.5h45v6h-45z" transform="translate(0 23.946)"/>
+        </g>
+        <g data-name="사각형 204" transform="translate(6.222 30.806)" style="stroke-width:3px;stroke:#000;fill:#ff5757">
+            <path id="czmi8d36qa" style="stroke:none" d="M0 0h2.667v13.585H0z"/>
+            <path d="M0 1.5h2.667M1.5 0v13.585m1.167-1.5H0m1.167 1.5V0" style="clip-path:url(#i80m1wjj2d);fill:none"/>
+        </g>
+        <g data-name="사각형 205" transform="translate(39.111 30.806)" style="stroke-width:3px;stroke:#000;fill:#ff5757">
+            <path id="giprpkiy8b" style="stroke:none" d="M0 0h2.667v13.585H0z"/>
+            <path d="M0 1.5h2.667M1.5 0v13.585m1.167-1.5H0m1.167 1.5V0" style="clip-path:url(#0xt1zhc5de);fill:none"/>
+        </g>
+        <g data-name="그룹 91">
+            <g data-name="그룹 89">
+                <path data-name="사각형 206" transform="translate(17.333 6.168)" style="fill:#1dcad3" d="M0 0h2.667v12.444H0z"/>
+                <path data-name="패스 125" d="m467.162 1040.228 4.385-4.385 4.385 4.385" transform="translate(-452.94 -1031.4)" style="stroke:#1dcad3;stroke-width:3px;fill:none"/>
+            </g>
+            <g data-name="그룹 90">
+                <path data-name="사각형 206" transform="rotate(180 15.274 8.444)" style="fill:#1dcad3" d="M0 0h2.667v12.444H0z"/>
+                <path data-name="패스 125" d="M0 4.385 4.385 0l4.384 4.385" transform="rotate(180 16.829 9.306)" style="stroke:#1dcad3;stroke-width:3px;fill:none"/>
+            </g>
+        </g>
+    </g>
+</svg>

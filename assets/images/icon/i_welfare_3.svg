@@ -1,0 +1,11 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="48" height="48" viewBox="0 0 48 48">
+    <defs>
+        <clipPath id="ijy6ybx3ma">
+            <path data-name="사각형 87" style="fill:#ff5757" d="M0 0h48v48H0z"/>
+        </clipPath>
+    </defs>
+    <g data-name="4213435_bill_business_cash_dollar_finance_icon" style="clip-path:url(#ijy6ybx3ma)">
+        <path data-name="패스 73" d="M48 8H0v32h48zm-3.048 28.952H3.047v-25.9h41.9z"/>
+        <path data-name="패스 74" d="M26.429 34.429a8 8 0 1 0-8-8 8 8 0 0 0 8 8zm0-12.952a4.952 4.952 0 1 1-4.952 4.952 4.943 4.943 0 0 1 4.952-4.953z" transform="translate(-2.429 -2.429)" style="fill:#1dcad3"/>
+    </g>
+</svg>

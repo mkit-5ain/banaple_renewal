@@ -1,0 +1,27 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="130" height="150" viewBox="0 0 130 150">
+    <defs>
+        <clipPath id="y2aam32e5a">
+            <path data-name="다각형 1" d="M105.569 0a12 12 0 0 1 10.394 6l30.577 53a12 12 0 0 1 0 11.993l-30.577 53a12 12 0 0 1-10.394 6H44.431a12 12 0 0 1-10.394-6L3.46 71a12 12 0 0 1 0-12L34.037 6a12 12 0 0 1 10.394-6z" transform="rotate(90 -502.5 1024.5)" style="fill:#e9567d"/>
+        </clipPath>
+        <clipPath id="ho02lryz0b">
+            <path data-name="사각형 117" transform="translate(673 1260)" style="stroke:#707070;fill:#fff" d="M0 0h60v60H0z"/>
+        </clipPath>
+    </defs>
+    <path data-name="다각형 4" d="M105.569 0a12 12 0 0 1 10.394 6l30.577 53a12 12 0 0 1 0 11.993l-30.577 53a12 12 0 0 1-10.394 6H44.431a12 12 0 0 1-10.394-6L3.46 71a12 12 0 0 1 0-12L34.037 6a12 12 0 0 1 10.394-6z" transform="rotate(90 65 65)" style="fill:#f1658a"/>
+    <g data-name="마스크 그룹 10" transform="translate(-392 -1527)" style="clip-path:url(#y2aam32e5a)">
+        <path data-name="사각형 80" transform="translate(457 1527)" style="fill:#e3577c" d="M0 0h65v150H0z"/>
+    </g>
+    <g data-name="마스크 그룹 54" style="clip-path:url(#ho02lryz0b)" transform="translate(-638 -1215)">
+        <g data-name="4213463_browser_page_website_creative_interface_icon">
+            <path data-name="패스 130" d="M.476 19.524h56.19v37.143H4.286V24.286H.476v36.19h60v-60h-60zm3.81-15.238h52.381v11.428H4.286z" style="fill:#fff" transform="translate(672.524 1259.524)"/>
+            <path data-name="사각형 263" transform="translate(680.619 1267.619)" style="fill:#fff" d="M0 0h3.81v3.81H0z"/>
+            <path data-name="사각형 264" transform="translate(688.238 1267.619)" style="fill:#fff" d="M0 0h3.81v3.81H0z"/>
+            <path data-name="사각형 265" transform="translate(705.381 1267.619)" style="fill:#fff" d="M0 0h20v3.81H0z"/>
+        </g>
+        <rect data-name="사각형 266" width="3" height="14" rx="1.5" transform="translate(695 1287)" style="fill:#fff"/>
+        <g data-name="사각형 267" transform="translate(695 1292)" style="stroke:#fff;stroke-width:3px;fill:none">
+            <rect width="16" height="16" rx="8" style="stroke:none"/>
+            <rect x="1.5" y="1.5" width="13" height="13" rx="6.5" style="fill:none"/>
+        </g>
+    </g>
+</svg>

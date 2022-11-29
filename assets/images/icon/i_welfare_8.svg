@@ -1,0 +1,14 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="48" height="48" viewBox="0 0 48 48">
+    <defs>
+        <clipPath id="zbztkim6la">
+            <path data-name="사각형 87" style="fill:#ff5757" d="M0 0h48v48H0z"/>
+        </clipPath>
+    </defs>
+    <g data-name="4213473_auto_car_parking_rental_transport_icon" style="clip-path:url(#zbztkim6la)">
+        <path data-name="패스 80" d="M40.071 3.429H7.923L4.114 20.953H0v16.762h48V20.953h-4.115zm4.876 31.238h-41.9V24h3.5l3.814-17.524h27.277L40.8 20.952H12.952V24h32z"/>
+        <path data-name="사각형 169" transform="translate(35.81 41.524)" style="fill:#1dcad3" d="M0 0h6.857v3.048H0z"/>
+        <path data-name="사각형 170" transform="translate(5.333 41.524)" style="fill:#1dcad3" d="M0 0h6.857v3.048H0z"/>
+        <path data-name="사각형 171" transform="translate(6.857 27.81)" style="fill:#1dcad3" d="M0 0h3.048v3.048H0z"/>
+        <path data-name="사각형 172" transform="translate(38.095 27.81)" style="fill:#1dcad3" d="M0 0h3.048v3.048H0z"/>
+    </g>
+</svg>

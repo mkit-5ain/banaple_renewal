@@ -1,0 +1,17 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="48" height="48" viewBox="0 0 48 48">
+    <defs>
+        <clipPath id="hkz8vc4dla">
+            <path data-name="사각형 221" style="fill:#ff5757" d="M0 0h48v48H0z"/>
+        </clipPath>
+    </defs>
+    <g style="clip-path:url(#hkz8vc4dla)">
+        <g data-name="4213472_calendar_date_event_month_schedule_icon">
+            <path data-name="사각형 173" d="M18.709 1.778h10.582V4.6H18.709z"/>
+            <path data-name="패스 89" d="M43.4 43.4H4.599V18.709H1.778v27.513h44.444V18.709H43.4z"/>
+            <path data-name="패스 90" d="M39.167 4.599H43.4v7.76H4.599v-7.76h4.233V1.778H1.778v13.4h44.444v-13.4h-7.055z"/>
+            <path data-name="사각형 174" transform="translate(12.36 1.778)" style="fill:#1dcad3" d="M0 0h2.822v6.349H0z"/>
+            <path data-name="사각형 175" transform="translate(32.819 1.778)" style="fill:#1dcad3" d="M0 0h2.822v6.349H0z"/>
+        </g>
+        <text data-name="123" transform="translate(23.667 34.222)" style="font-size:12px;font-family:SpoqaHanSansNeo-Bold,Spoqa Han Sans Neo;font-weight:700;letter-spacing:.1em;fill:#1dcad3"><tspan x="-11.928" y="0">123</tspan></text>
+    </g>
+</svg>

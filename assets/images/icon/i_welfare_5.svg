@@ -1,0 +1,19 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="48" height="48" viewBox="0 0 48 48">
+    <defs>
+        <clipPath id="fwzcsh3fta">
+            <path data-name="사각형 87" style="fill:#ff5757" d="M0 0h48v48H0z"/>
+        </clipPath>
+    </defs>
+    <g style="clip-path:url(#fwzcsh3fta)">
+        <path data-name="패스 119" d="m1403.582 1773.75 8.324 8.324 14.862 14.862 9.014 9.014" transform="translate(-1396.026 -1766.194)" style="stroke-width:3px;stroke:#000;fill:none"/>
+        <path data-name="패스 120" d="m1435.782 1773.75-8.324 8.324-14.862 14.862-9.014 9.014" transform="translate(-1396.026 -1766.194)" style="stroke-width:3px;stroke:#000;fill:none"/>
+        <g data-name="사각형 195" style="stroke-width:3px;stroke:#000;fill:none">
+            <rect width="48" height="48" rx="24" style="stroke:none"/>
+            <rect x="1.5" y="1.5" width="45" height="45" rx="22.5" style="fill:none"/>
+        </g>
+        <g data-name="사각형 196" transform="translate(10.667 10.667)" style="fill:#fff;stroke:#1dcad3;stroke-width:3px">
+            <rect width="26.667" height="26.667" rx="13.333" style="stroke:none"/>
+            <rect x="1.5" y="1.5" width="23.667" height="23.667" rx="11.833" style="fill:none"/>
+        </g>
+    </g>
+</svg>

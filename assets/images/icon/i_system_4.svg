@@ -1,0 +1,20 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="48" height="48" viewBox="0 0 48 48">
+    <defs>
+        <clipPath id="6lb4924hea">
+            <path data-name="사각형 87" style="fill:#ff5757" d="M0 0h48v48H0z"/>
+        </clipPath>
+    </defs>
+    <g style="clip-path:url(#6lb4924hea)">
+        <g data-name="4213406_alarm_clock_history_schedule_time_icon">
+            <path data-name="패스 69" d="M36.72 21.176h-8.748v-8.747h-2.258v11.005H36.72z" transform="translate(-9.065 -4.527)" style="fill:#1dcad3"/>
+            <path data-name="사각형 164" transform="translate(5.362 16.649)" style="fill:#1dcad3" d="M0 0h2.258v2.258H0z"/>
+            <path data-name="패스 70" d="M17.777 35.555A17.778 17.778 0 1 0 0 17.777a17.776 17.776 0 0 0 17.777 17.778zm0-33.3a15.52 15.52 0 1 1-15.52 15.52 15.548 15.548 0 0 1 15.52-15.518z"/>
+        </g>
+        <g data-name="사각형 194" transform="translate(26.667 20.444)" style="fill:#fff;stroke:#707070">
+            <rect width="15.111" height="15.111" rx="7.556" style="stroke:none"/>
+            <rect x=".5" y=".5" width="14.111" height="14.111" rx="7.056" style="fill:none"/>
+        </g>
+        <path data-name="패스 117" d="M25.037 17.886a8 8 0 1 0 8 8 8.026 8.026 0 0 0-8-8zm0 13.338a5.335 5.335 0 1 1 5.335-5.335 5.351 5.351 0 0 1-5.335 5.335z" transform="translate(8.862 1.74)" style="fill:#1dcad3"/>
+        <path data-name="패스 118" d="M33.899 39.232a18.016 18.016 0 0 0-13.137 5.7l-.9.967 1.933 1.836.9-.967a15.326 15.326 0 0 1 22.407 0l.9.967 1.933-1.83-.9-.967a18.144 18.144 0 0 0-13.136-5.706z"/>
+    </g>
+</svg>

@@ -1,0 +1,61 @@
+<svg xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" width="130" height="150" viewBox="0 0 130 150">
+    <defs>
+        <clipPath id="ftjh3x3ttd">
+            <path data-name="다각형 1" d="M105.569 0a12 12 0 0 1 10.394 6l30.577 53a12 12 0 0 1 0 11.993l-30.577 53a12 12 0 0 1-10.394 6H44.431a12 12 0 0 1-10.394-6L3.46 71a12 12 0 0 1 0-12L34.037 6a12 12 0 0 1 10.394-6z" transform="rotate(90 -502.5 1024.5)" style="fill:#1dcad3"/>
+        </clipPath>
+        <clipPath id="8odafer7pe">
+            <path data-name="사각형 117" transform="translate(427 1572)" style="fill:#fff;stroke:#707070" d="M0 0h60v60H0z"/>
+        </clipPath>
+        <clipPath id="xqn3lq2zgf">
+            <use xlink:href="#ndqzietcia"/>
+        </clipPath>
+        <clipPath id="q05ram94ng">
+            <use xlink:href="#vqw6u4xnlb"/>
+        </clipPath>
+        <clipPath id="xd6dqnlyah">
+            <use xlink:href="#eokle8x2mc"/>
+        </clipPath>
+    </defs>
+    <path data-name="다각형 4" d="M105.569 0a12 12 0 0 1 10.394 6l30.577 53a12 12 0 0 1 0 11.993l-30.577 53a12 12 0 0 1-10.394 6H44.431a12 12 0 0 1-10.394-6L3.46 71a12 12 0 0 1 0-12L34.037 6a12 12 0 0 1 10.394-6z" transform="rotate(90 65 65)" style="fill:#1dcad3"/>
+    <g data-name="마스크 그룹 10" style="clip-path:url(#ftjh3x3ttd)" transform="translate(-392 -1527)">
+        <path data-name="사각형 80" transform="translate(457 1527)" style="fill:#17b8c1" d="M0 0h65v150H0z"/>
+    </g>
+    <g data-name="마스크 그룹 48" style="clip-path:url(#8odafer7pe)" transform="translate(-392 -1527)">
+        <g data-name="사각형 240" style="stroke:#fff;stroke-width:4px;fill:none">
+            <path style="stroke:none" d="M0 0h48v18H0z" transform="translate(433 1572)"/>
+            <path style="fill:none" d="M2 2h44v14H2z" transform="translate(433 1572)"/>
+        </g>
+        <g data-name="사각형 241" style="stroke:#fff;stroke-width:4px;fill:none">
+            <path style="stroke:none" d="M0 0h48v18H0z" transform="translate(433 1593)"/>
+            <path style="fill:none" d="M2 2h44v14H2z" transform="translate(433 1593)"/>
+        </g>
+        <g data-name="사각형 242" style="stroke:#fff;stroke-width:4px;fill:none">
+            <path style="stroke:none" d="M0 0h48v18H0z" transform="translate(433 1614)"/>
+            <path style="fill:none" d="M2 2h44v14H2z" transform="translate(433 1614)"/>
+        </g>
+        <g data-name="사각형 243" transform="translate(440 1621)" style="stroke:#fff;stroke-width:4px;fill:none">
+            <path style="stroke:none" d="M0 0h4v4H0z"/>
+            <rect x="2" y="2" style="fill:none"/>
+        </g>
+        <g data-name="사각형 244" transform="translate(440 1600)" style="stroke:#fff;stroke-width:4px;fill:none">
+            <path style="stroke:none" d="M0 0h4v4H0z"/>
+            <rect x="2" y="2" style="fill:none"/>
+        </g>
+        <g data-name="사각형 245" transform="translate(440 1579)" style="stroke:#fff;stroke-width:4px;fill:none">
+            <path style="stroke:none" d="M0 0h4v4H0z"/>
+            <rect x="2" y="2" style="fill:none"/>
+        </g>
+        <g data-name="사각형 246" transform="translate(466 1580)" style="stroke:#fff;stroke-width:4px;fill:none">
+            <path id="ndqzietcia" style="stroke:none" d="M0 0h8v2H0z"/>
+            <path d="M0 0h8M6 0v2m2 0H0m2 0V0" style="clip-path:url(#xqn3lq2zgf);fill:none"/>
+        </g>
+        <g data-name="사각형 247" transform="translate(466 1601)" style="stroke:#fff;stroke-width:4px;fill:none">
+            <path id="vqw6u4xnlb" style="stroke:none" d="M0 0h8v2H0z"/>
+            <path d="M0 0h8M6 0v2m2 0H0m2 0V0" style="clip-path:url(#q05ram94ng);fill:none"/>
+        </g>
+        <g data-name="사각형 248" transform="translate(466 1622)" style="stroke:#fff;stroke-width:4px;fill:none">
+            <path id="eokle8x2mc" style="stroke:none" d="M0 0h8v2H0z"/>
+            <path d="M0 0h8M6 0v2m2 0H0m2 0V0" style="clip-path:url(#xd6dqnlyah);fill:none"/>
+        </g>
+    </g>
+</svg>

@@ -1,0 +1,27 @@
+<svg xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" width="26" height="26" viewBox="0 0 26 26">
+  <defs>
+    <style>
+      .cls-1 {
+        fill: #fff;
+        stroke: #707070;
+      }
+
+      .cls-2 {
+        clip-path: url(#clip-path);
+      }
+
+      .cls-3 {
+        fill: #1dcad3;
+      }
+    </style>
+    <clipPath id="clip-path">
+      <rect id="사각형_160" data-name="사각형 160" class="cls-1" width="26" height="26" transform="translate(84 25)"/>
+    </clipPath>
+  </defs>
+  <g id="btn_closed_b_menu" class="cls-2" transform="translate(-84 -25)">
+    <g id="그룹_75" data-name="그룹 75">
+      <rect id="사각형_157" data-name="사각형 157" class="cls-3" width="30" height="2" transform="translate(87.414 27) rotate(45)"/>
+      <rect id="사각형_161" data-name="사각형 161" class="cls-3" width="30" height="2" transform="translate(108.627 28.414) rotate(135)"/>
+    </g>
+  </g>
+</svg>

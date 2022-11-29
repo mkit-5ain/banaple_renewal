@@ -1,0 +1,12 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="20" height="20" viewBox="0 0 20 20">
+    <defs>
+        <clipPath id="pwqt0znbqa">
+            <path data-name="사각형 136" style="stroke:#707070;fill:#fff" d="M0 0h20v20H0z"/>
+        </clipPath>
+    </defs>
+    <g style="clip-path:url(#pwqt0znbqa)">
+        <path data-name="사각형 24" transform="translate(5)" style="fill:#fff" d="M0 0h15v1H0z"/>
+        <path data-name="사각형 25" transform="rotate(90 10 10)" style="fill:#fff" d="M0 0h15v1H0z"/>
+        <path data-name="사각형 26" transform="rotate(-45 23.147 9.303)" style="fill:#fff" d="M0 0h26.793v1H0z"/>
+    </g>
+</svg>

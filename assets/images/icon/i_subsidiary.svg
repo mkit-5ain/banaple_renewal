@@ -1,0 +1,19 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="120" height="120" viewBox="0 0 120 120">
+    <defs>
+        <clipPath id="rnt35rusba">
+            <path data-name="사각형 100" transform="translate(468 1019)" style="fill:#ffd2d2" d="M0 0h40v40H0z"/>
+        </clipPath>
+    </defs>
+    <g data-name="사각형 62" style="stroke:#e8e8e8;fill:none">
+        <rect width="120" height="120" rx="60" style="stroke:none"/>
+        <rect x=".5" y=".5" width="119" height="119" rx="59.5" style="fill:none"/>
+    </g>
+    <g data-name="icon_subsidiary" transform="translate(-428 -979)" style="clip-path:url(#rnt35rusba)">
+        <g data-name="4213449_building_college_education_library_school_icon">
+            <path data-name="패스 39" d="M508 1033.841h-12.063v-7.206l-7.937-7.556-7.936 7.556v7.206H468v9.841h12.064v12.7h-9.524v-10.16H468v12.7h40v-12.7h-2.54v10.159h-9.523v-12.7H508zm-27.937 7.3h-9.523v-4.76h9.524zm13.334 15.24h-4.127v-6.984h-2.54v6.984h-4.127v-28.667l5.4-5.143 5.4 5.143zm12.064-15.238h-9.524v-4.762h9.524z"/>
+            <path data-name="사각형 101" transform="translate(473.714 1049.396)" style="fill:#1dcad3" d="M0 0h3.175v3.175H0z"/>
+            <path data-name="사각형 102" transform="translate(499.111 1049.396)" style="fill:#1dcad3" d="M0 0h3.175v3.175H0z"/>
+            <path data-name="사각형 103" transform="translate(486.73 1027.809)" style="fill:#1dcad3" d="M0 0h2.54v2.54H0z"/>
+        </g>
+    </g>
+</svg>

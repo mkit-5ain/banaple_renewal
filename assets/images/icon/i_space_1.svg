@@ -1,0 +1,25 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="48" height="48" viewBox="0 0 48 48">
+    <defs>
+        <clipPath id="zj0b42w1ma">
+            <path data-name="사각형 87" style="fill:#ff5757" d="M0 0h48v48H0z"/>
+        </clipPath>
+    </defs>
+    <g style="clip-path:url(#zj0b42w1ma)">
+        <g data-name="사각형 198" style="stroke-width:3px;stroke:#000;fill:none">
+            <path style="stroke:none" d="M0 0h26.667v14.222H0z" transform="translate(1.778 8)"/>
+            <path style="fill:none" d="M1.5 1.5h23.667v11.222H1.5z" transform="translate(1.778 8)"/>
+        </g>
+        <g data-name="사각형 200" style="stroke-width:3px;stroke:#000;fill:none">
+            <path style="stroke:none" d="M0 0h26.667v14.222H0z" transform="translate(19.556 25.778)"/>
+            <path style="fill:none" d="M1.5 1.5h23.667v11.222H1.5z" transform="translate(19.556 25.778)"/>
+        </g>
+        <g data-name="사각형 199" style="stroke:#1dcad3;stroke-width:3px;fill:none">
+            <path style="stroke:none" d="M0 0h14.222v14.222H0z" transform="translate(32 8)"/>
+            <path style="fill:none" d="M1.5 1.5h11.222v11.222H1.5z" transform="translate(32 8)"/>
+        </g>
+        <g data-name="사각형 201" style="stroke:#1dcad3;stroke-width:3px;fill:none">
+            <path style="stroke:none" d="M0 0h14.222v14.222H0z" transform="translate(1.778 25.778)"/>
+            <path style="fill:none" d="M1.5 1.5h11.222v11.222H1.5z" transform="translate(1.778 25.778)"/>
+        </g>
+    </g>
+</svg>

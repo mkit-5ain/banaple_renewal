@@ -1,0 +1,14 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="48" height="48" viewBox="0 0 48 48">
+    <defs>
+        <clipPath id="86utk7heya">
+            <path data-name="사각형 87" transform="translate(473 998)" style="fill:#ff5757" d="M0 0h48v48H0z"/>
+        </clipPath>
+    </defs>
+    <g transform="translate(-473 -998)" style="clip-path:url(#86utk7heya)">
+        <g data-name="4213471_brief_briefcase_business_businessman_case_icon (1)">
+            <path data-name="패스 94" d="M506.142 998h-18.285v6.857H473v16h15.619v-3.048h-12.572v-9.9h41.9v9.9h-11.805v3.048H521v-16h-14.858zm-3.047 6.857h-12.191v-3.81h12.19z"/>
+        </g>
+        <path data-name="패스 98" d="M18.789 10.143h-2.434v3.286l-.183.061a4.51 4.51 0 0 0-1.156 7.729l3.621 2.891a2.059 2.059 0 0 1-1.278 3.682h-4.047v2.434h3.043v3.043h2.434v-3.287l.183-.091a4.51 4.51 0 0 0 1.156-7.729l-3.621-2.891a2.059 2.059 0 0 1 1.278-3.682h4.047v-2.434h-3.043z" transform="translate(479.874 1007.012)" style="fill:#1dcad3"/>
+        <path data-name="패스 100" d="M517.952 1042.878h-41.905v-17.953H473V1046h48v-21.075h-3.048z"/>
+    </g>
+</svg>

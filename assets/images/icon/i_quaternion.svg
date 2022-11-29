@@ -1,0 +1,21 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="120" height="120" viewBox="0 0 120 120">
+    <defs>
+        <clipPath id="h5la37ec8a">
+            <path data-name="사각형 94" transform="translate(468 1016)" style="fill:#ffd2d2" d="M0 0h40v40H0z"/>
+        </clipPath>
+    </defs>
+    <g data-name="사각형 62" style="stroke:#e8e8e8;fill:none">
+        <rect width="120" height="120" rx="60" style="stroke:none"/>
+        <rect x=".5" y=".5" width="119" height="119" rx="59.5" style="fill:none"/>
+    </g>
+    <g data-name="icon_quaternion" transform="translate(-428 -976)" style="clip-path:url(#h5la37ec8a)">
+        <g data-name="4213441_community_group_leader_people_team_icon">
+            <path data-name="패스 30" d="M35.714 21.429h-2.54v8.889H30v14.6h-3.81v-14.6h-3.174v-8.889h-2.54v11.428h3.175v14.6h8.889v-14.6h3.175z" transform="translate(459.905 1008.54)" style="fill:#1dcad3"/>
+            <path data-name="패스 31" d="M25.238 4.921A4.444 4.444 0 1 0 29.683.476a4.458 4.458 0 0 0-4.445 4.445zm6.349 0a1.9 1.9 0 1 1-1.9-1.9 1.91 1.91 0 0 1 1.9 1.9z" transform="translate(458.317 1015.524)" style="fill:#1dcad3"/>
+            <path data-name="패스 32" d="M472.762 1023.62a4.444 4.444 0 1 0 4.444-4.444 4.458 4.458 0 0 0-4.444 4.444zm6.349 0a1.9 1.9 0 1 1-1.9-1.9 1.91 1.91 0 0 1 1.903 1.9z"/>
+            <path data-name="패스 33" d="M502.603 1042.031h-3.175v11.429h-5.079v2.54h7.619v-11.429h3.175v-12.7h-2.54z"/>
+            <path data-name="패스 34" d="M494.349 1023.62a4.444 4.444 0 1 0 4.444-4.444 4.458 4.458 0 0 0-4.444 4.444zm4.444-1.9a1.9 1.9 0 1 1-1.9 1.9 1.91 1.91 0 0 1 1.9-1.905z"/>
+            <path data-name="패스 35" d="M476.567 1042.031h-3.17v-10.158h-2.54v12.7h3.175V1056h7.619v-2.54h-5.084z"/>
+        </g>
+    </g>
+</svg>

@@ -1,0 +1,14 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="48" height="48" viewBox="0 0 48 48">
+    <defs>
+        <clipPath id="na1zpng38a">
+            <path data-name="사각형 87" style="fill:#ff5757" d="M0 0h48v48H0z"/>
+        </clipPath>
+    </defs>
+    <g data-name="4213419_burger_cheeseburger_fastfood_food_hamburger_icon" style="clip-path:url(#na1zpng38a)">
+        <path data-name="패스 75" d="M37.714 46.476a5.349 5.349 0 0 0 5.338-5.333H40a2.292 2.292 0 0 1-2.286 2.286H10.285a2.292 2.292 0 0 1-2.286-2.286H4.952a5.349 5.349 0 0 0 5.333 5.333z"/>
+        <path data-name="패스 76" d="M8 20.567a16 16 0 0 1 32 0h3.052a19.05 19.05 0 0 0-38.1 0z"/>
+        <path data-name="패스 77" d="M41.19 28.714h-5.6l-5.448 5.448-5.442-5.448H7.667a7.238 7.238 0 1 0 0 14.476H41.19a7.238 7.238 0 1 0 0-14.476zm0 11.429H7.667a4.19 4.19 0 1 1 0-8.381H23.4l6.743 6.738 6.743-6.743h4.3a4.19 4.19 0 1 1 0 8.381z" transform="translate(-.429 -5.095)" style="fill:#1dcad3"/>
+        <path data-name="사각형 167" d="M13.333 17.638h3.048v3.048h-3.048z"/>
+        <path data-name="사각형 168" d="M20.952 10.781H24v3.048h-3.048z"/>
+    </g>
+</svg>

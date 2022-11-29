@@ -1,0 +1,14 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="40" height="40" viewBox="0 0 40 40">
+    <defs>
+        <clipPath id="bgr31kqj9a">
+            <path data-name="사각형 96" transform="translate(478 1026)" style="fill:#ffd2d2" d="M0 0h40v40H0z"/>
+        </clipPath>
+    </defs>
+    <g data-name="4213404_bubble_chat_communication_conversation_launcher_icon" transform="translate(-478 -1026)" style="clip-path:url(#bgr31kqj9a)">
+        <path data-name="패스 103" d="M486.159 1059.651h24.224v-2.54h-25.3l-4.543 4.762v-28.253H478V1066h2.127z"/>
+        <path data-name="패스 104" d="M484.35 1053.302h25.174l6.349 6.349H518V1026h-33.65zm2.539-24.762h28.572v27.08l-4.857-4.857h-23.715z"/>
+        <path data-name="사각형 185" transform="translate(492 1038)" style="fill:#1dcad3" d="M0 0h3v3H0z"/>
+        <path data-name="사각형 186" transform="translate(499 1038)" style="fill:#1dcad3" d="M0 0h3v3H0z"/>
+        <path data-name="사각형 187" transform="translate(506 1038)" style="fill:#1dcad3" d="M0 0h3v3H0z"/>
+    </g>
+</svg>

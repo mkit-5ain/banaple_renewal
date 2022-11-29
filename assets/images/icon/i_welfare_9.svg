@@ -1,0 +1,13 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="48" height="48" viewBox="0 0 48 48">
+    <defs>
+        <clipPath id="wwq0scbpfa">
+            <path data-name="사각형 87" style="fill:#ff5757" d="M0 0h48v48H0z"/>
+        </clipPath>
+    </defs>
+    <g style="clip-path:url(#wwq0scbpfa)">
+        <path data-name="패스 116" d="M491.387 1043.7v-8.69h6.513v14.943" transform="translate(-456.376 -1030.945)" style="fill:none;stroke:#1dcad3;stroke-width:3px"/>
+        <g data-name="4213424_building_estate_home_house_property_icon">
+            <path data-name="패스 82" d="m45.591 21.516-.077-.27L24.193 0 2.41 21.516V48h17.349V30.651h7.711V48h18.12zm-3.085 23.4H30.554V27.567H16.675v17.349H5.494V23.171l18.7-18.814 18.312 18.467z"/>
+        </g>
+    </g>
+</svg>

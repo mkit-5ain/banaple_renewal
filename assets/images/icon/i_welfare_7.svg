@@ -1,0 +1,11 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="48" height="48" viewBox="0 0 48 48">
+    <defs>
+        <clipPath id="p4rvb3bk2a">
+            <path data-name="사각형 87" style="fill:#ff5757" d="M0 0h48v48H0z"/>
+        </clipPath>
+    </defs>
+    <g data-name="4213414_document_excel_file_format_spreadsheet_icon" style="clip-path:url(#p4rvb3bk2a)">
+        <path data-name="패스 78" d="M4.952 0v48h38.1V9.142h-9.148V0zM40 12.19v32.762H8V3.047h22.852v9.143z"/>
+        <path data-name="패스 79" d="M13.714 31.143V42.19H38.1V23.143H13.714zm11.048-4.953h10.286v4.952H24.762zm0 8h10.286v4.952H24.762zm-8-8h4.952v4.952h-4.952zm0 8h4.952v4.952h-4.952z" transform="translate(-1.905 -2.952)" style="fill:#1dcad3"/>
+    </g>
+</svg>

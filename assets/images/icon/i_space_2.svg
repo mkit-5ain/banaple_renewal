@@ -1,0 +1,12 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="48" height="48" viewBox="0 0 48 48">
+    <defs>
+        <clipPath id="ph7933fxwa">
+            <path data-name="사각형 87" style="fill:#ff5757" d="M0 0h48v48H0z"/>
+        </clipPath>
+    </defs>
+    <g data-name="4213407_computer_device_electronics_laptop_macbook_icon" style="clip-path:url(#ph7933fxwa)">
+        <path data-name="사각형 176" d="M0 44.143h48v3.429H0z"/>
+        <path data-name="패스 91" d="M4.714 46.286h42v-33h-42zm3.17-29.616h35.66V42.9H7.884z" transform="translate(-1.905 -6.857)" style="fill:#1dcad3"/>
+        <path data-name="사각형 202" d="M21.333 30.143h5.333v3h-5.333z"/>
+    </g>
+</svg>

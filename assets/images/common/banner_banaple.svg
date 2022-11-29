@@ -1,0 +1,115 @@
+<svg xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" width="645" height="270" viewBox="0 0 645 270">
+    <defs>
+        <clipPath id="clip-path">
+            <path id="사각형_5" data-name="사각형 5" style="fill:none" d="M0 0h121.958v31.506H0z"/>
+        </clipPath>
+        <clipPath id="clip-path-2">
+            <path id="패스_6" data-name="패스 6" d="M0 4.626v10.9L4.137 12.5V4.626z" transform="translate(0 -4.626)" style="fill:none"/>
+        </clipPath>
+        <clipPath id="clip-path-4">
+            <path id="패스_9" data-name="패스 9" d="M86.861 29.076h4.132V21.2l-4.132-3.252z" transform="translate(-86.861 -17.948)" style="fill:none"/>
+        </clipPath>
+        <filter id="사각형_9" x="439" y="113.711" width="139.958" height="49.506" filterUnits="userSpaceOnUse">
+            <feOffset/>
+            <feGaussianBlur stdDeviation="3" result="blur"/>
+            <feFlood flood-opacity=".18"/>
+            <feComposite operator="in" in2="blur"/>
+            <feComposite in="SourceGraphic"/>
+        </filter>
+        <filter id="banana_" x="78" y="111" width="114" height="49" filterUnits="userSpaceOnUse">
+            <feOffset/>
+            <feGaussianBlur stdDeviation="3" result="blur-2"/>
+            <feFlood flood-opacity=".18"/>
+            <feComposite operator="in" in2="blur-2"/>
+            <feComposite in="SourceGraphic"/>
+        </filter>
+        <filter id="apple" x="236" y="111" width="86" height="49" filterUnits="userSpaceOnUse">
+            <feOffset/>
+            <feGaussianBlur stdDeviation="3" result="blur-3"/>
+            <feFlood flood-opacity=".18"/>
+            <feComposite operator="in" in2="blur-3"/>
+            <feComposite in="SourceGraphic"/>
+        </filter>
+        <linearGradient id="linear-gradient" y1="2.493" x2=".216" y2="2.493" gradientUnits="objectBoundingBox">
+            <stop offset="0" stop-color="#0d8e91"/>
+            <stop offset="1" stop-color="#35b8c7"/>
+        </linearGradient>
+        <linearGradient id="linear-gradient-2" x1="-18.793" y1="1.371" x2="-18.577" y2="1.371" xlink:href="#linear-gradient"/>
+        <style>
+            
+        </style>
+    </defs>
+    <g id="img_banaple" transform="translate(-652 -119)">
+        <g id="box" transform="translate(652 119)" style="fill:rgba(0,0,0,.45);stroke:rgba(255,255,255,.4)">
+            <rect width="645" height="270" rx="135" style="stroke:none"/>
+            <rect x=".5" y=".5" width="644" height="269" rx="134.5" style="fill:none"/>
+        </g>
+        <g id="img" transform="translate(109 9.603)">
+            <g id="banana" transform="translate(593 159)">
+                <g id="사각형_36" data-name="사각형 36" transform="translate(0 .398)" style="stroke:rgba(255,255,255,.5);fill:rgba(0,0,0,.4)">
+                    <rect width="170" height="170" rx="85" style="stroke:none"/>
+                    <rect x=".5" y=".5" width="169" height="169" rx="84.5" style="fill:none"/>
+                </g>
+                <g transform="translate(-50 -49.6)" style="filter:url(#banana_)">
+                    <text id="banana_2" data-name="banana" transform="translate(135 144)" style="font-size:25px;font-family:SpoqaHanSansNeo-Regular,Spoqa Han Sans Neo;fill:#fff"><tspan x="-47.438" y="0">Banana </tspan></text>
+                </g>
+            </g>
+            <g id="apple-2" data-name="apple" transform="translate(736.665 159)">
+                <g id="사각형_36-2" data-name="사각형 36" transform="translate(.335 .398)" style="stroke:rgba(255,255,255,.5);fill:rgba(0,0,0,.4)">
+                    <rect width="170" height="170" rx="85" style="stroke:none"/>
+                    <rect x=".5" y=".5" width="169" height="169" rx="84.5" style="fill:none"/>
+                </g>
+                <g transform="translate(-193.66 -49.6)" style="filter:url(#apple)">
+                    <text id="apple-3" data-name="apple" transform="translate(279 144)" style="font-size:25px;font-family:SpoqaHanSansNeo-Regular,Spoqa Han Sans Neo;fill:#fff"><tspan x="-33.425" y="0">Apple</tspan></text>
+                </g>
+            </g>
+            <g id="banaple" transform="translate(965.723 159)">
+                <g id="사각형_36-3" data-name="사각형 36" transform="translate(.277 .398)" style="stroke:#1dcad3;stroke-width:2px;fill:rgba(0,0,0,.4)">
+                    <rect width="172" height="172" rx="86" style="stroke:none"/>
+                    <rect x="1" y="1" width="170" height="170" rx="85" style="fill:none"/>
+                </g>
+                <g id="img_logo" transform="translate(25.277 73.108)">
+                    <g id="그룹_2" data-name="그룹 2">
+                        <g id="그룹_1" data-name="그룹 1" style="clip-path:url(#clip-path)">
+                            <path id="패스_1" data-name="패스 1" d="M41.953 7.058v17.9h-2.28V21.84a8.534 8.534 0 0 1-7 3.58 9.378 9.378 0 0 1-9.583-9.492A9.247 9.247 0 0 1 32.675 6.6a8.007 8.007 0 0 1 7 3.579V7.058zm-9.295 1.6a7.267 7.267 0 0 0-5.166 2.013 6.945 6.945 0 0 0-2.12 5.275 7.174 7.174 0 0 0 2.089 5.417 7.1 7.1 0 0 0 5.07 2 6.9 6.9 0 0 0 5.2-2.157 7.273 7.273 0 0 0 2.089-5.257 7.106 7.106 0 0 0-2.073-5.179 6.858 6.858 0 0 0-5.086-2.109" transform="translate(-2.364 -.662)" style="fill:#35b8c7"/>
+                            <path id="패스_2" data-name="패스 2" d="M45.841 24.956V7.058h2.28v2.35A6.443 6.443 0 0 1 53.67 6.6a7.513 7.513 0 0 1 5.53 2.153q2.185 2.158 2.184 6.455v9.748h-2.28v-9.748a6.993 6.993 0 0 0-1.53-4.874 5.124 5.124 0 0 0-3.97-1.678 5.292 5.292 0 0 0-3.923 1.6q-1.562 1.58-1.562 4.953v9.748z" transform="translate(-4.694 -.662)" style="fill:#35b8c7"/>
+                            <path id="패스_3" data-name="패스 3" d="M83.249 7.058v17.9h-2.28V21.84a8.533 8.533 0 0 1-7 3.58 9.377 9.377 0 0 1-9.582-9.492A9.246 9.246 0 0 1 73.971 6.6a8.007 8.007 0 0 1 7 3.579V7.058zm-9.295 1.6a7.263 7.263 0 0 0-5.165 2.013 6.943 6.943 0 0 0-2.121 5.275 7.181 7.181 0 0 0 2.089 5.417 7.1 7.1 0 0 0 5.071 2 6.9 6.9 0 0 0 5.2-2.157 7.27 7.27 0 0 0 2.09-5.257 7.107 7.107 0 0 0-2.073-5.179 6.858 6.858 0 0 0-5.086-2.109" transform="translate(-6.593 -.662)" style="fill:#35b8c7"/>
+                            <path id="사각형_4" data-name="사각형 4" transform="translate(98.975 .004)" style="fill:#35b8c7" d="M0 0h2.279v24.289H0z"/>
+                            <path id="패스_4" data-name="패스 4" d="M117.421 16.855a6.186 6.186 0 0 0 2.121 4.474 6.93 6.93 0 0 0 4.974 2.029 7.44 7.44 0 0 0 3.4-.974 6.388 6.388 0 0 0 2.87-3.356h2.424a10.216 10.216 0 0 1-3.6 4.745 8.693 8.693 0 0 1-5.07 1.646 8.917 8.917 0 0 1-6.681-2.811 9.152 9.152 0 0 1-2.71-6.521 9.456 9.456 0 0 1 2.615-6.663 9.227 9.227 0 0 1 13.218-.08 9.221 9.221 0 0 1 2.774 6.823v.688zm.032-2.062h14.013a7.176 7.176 0 0 0-2.519-4.523 6.876 6.876 0 0 0-4.432-1.614 6.955 6.955 0 0 0-4.862 1.87 6.241 6.241 0 0 0-2.2 4.266" transform="translate(-11.79 -.662)" style="fill:#35b8c7"/>
+                            <path id="패스_5" data-name="패스 5" d="M4.153 16.348a2.075 2.075 0 0 1-3.5 1.514A4.1 4.1 0 0 1 0 15.331V2.08a2.077 2.077 0 1 1 4.153 0z" style="fill:#35b8c7"/>
+                        </g>
+                    </g>
+                    <g id="그룹_4" data-name="그룹 4" transform="translate(0 4.136)">
+                        <g id="그룹_3" data-name="그룹 3" style="clip-path:url(#clip-path-2)">
+                            <path id="사각형_6" data-name="사각형 6" style="fill:url(#linear-gradient)" d="M0 0h4.137v10.899H0z"/>
+                        </g>
+                    </g>
+                    <g id="그룹_6" data-name="그룹 6">
+                        <g id="그룹_5" data-name="그룹 5" style="clip-path:url(#clip-path)">
+                            <path id="패스_7" data-name="패스 7" d="M9.688 6.389a9.708 9.708 0 1 0 9.687 9.711 9.7 9.7 0 0 0-9.687-9.711m0 15.276a5.566 5.566 0 1 1 5.553-5.565 5.561 5.561 0 0 1-5.553 5.567" transform="translate(0 -.641)" style="fill:#35b8c7"/>
+                            <path id="패스_8" data-name="패스 8" d="M91.01 16.618a2.073 2.073 0 0 0-3.345-1.645 3.622 3.622 0 0 0-.8 2.411v13.5a2.075 2.075 0 1 0 4.15 0z" transform="translate(-8.894 -1.458)" style="fill:#35b8c7"/>
+                        </g>
+                    </g>
+                    <g id="그룹_8" data-name="그룹 8" transform="translate(77.978 16.244)">
+                        <g id="그룹_7" data-name="그룹 7" style="clip-path:url(#clip-path-4)">
+                            <path id="사각형_8" data-name="사각형 8" style="fill:url(#linear-gradient-2)" d="M0 0h4.132v11.128H0z"/>
+                        </g>
+                    </g>
+                    <g id="그룹_10" data-name="그룹 10">
+                        <g id="그룹_9" data-name="그룹 9" style="clip-path:url(#clip-path)">
+                            <path id="패스_10" data-name="패스 10" d="M96.548 26.468a9.71 9.71 0 1 1 9.685-9.709 9.7 9.7 0 0 1-9.685 9.709m0-15.276a5.567 5.567 0 1 0 5.553 5.566 5.561 5.561 0 0 0-5.553-5.566" transform="translate(-8.894 -.707)" style="fill:#35b8c7"/>
+                        </g>
+                    </g>
+                </g>
+            </g>
+            <g id="_" data-name="+" transform="translate(743.71 239.452)" style="opacity:.7">
+                <path id="사각형_40" data-name="사각형 40" transform="translate(-.71 5.945)" style="fill:#fff" d="M0 0h13v1H0z"/>
+                <path id="사각형_41" data-name="사각형 41" transform="translate(5.29 -.055)" style="fill:#fff" d="M0 0h1v13H0z"/>
+            </g>
+            <g id="_2" data-name="=" transform="translate(927.049 241.602)" style="opacity:.7">
+                <path id="사각형_38" data-name="사각형 38" transform="translate(-.048 -.204)" style="fill:#fff" d="M0 0h19v1H0z"/>
+                <path id="사각형_39" data-name="사각형 39" transform="translate(-.048 7.796)" style="fill:#fff" d="M0 0h19v1H0z"/>
+            </g>
+        </g>
+    </g>
+</svg>

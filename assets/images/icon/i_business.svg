@@ -1,0 +1,11 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="22" height="22" viewBox="0 0 22 22">
+    <defs>
+        <clipPath id="217nahtaya">
+            <path data-name="사각형 120" transform="translate(19.645 693)" style="fill:#ffc4c4" d="M0 0h22v22H0z"/>
+        </clipPath>
+    </defs>
+    <g data-name="4213418_archive_documents_file_folder_office_icon" transform="translate(-19.645 -693)" style="clip-path:url(#217nahtaya)">
+        <path data-name="패스 57" d="M19.032 8.9H.175v13.27h18.857zm-1.4 11.873H1.571V10.3h16.064z" style="fill:#1dcad3" transform="translate(19.47 691.254)"/>
+        <path data-name="패스 58" d="M22.175 22.175V5.762H9.952V3.317H1.571v3.842h1.4V4.714h5.585v2.445h12.222v15.016z" style="fill:#1dcad3" transform="translate(19.47 691.254)"/>
+    </g>
+</svg>

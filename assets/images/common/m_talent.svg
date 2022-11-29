@@ -1,0 +1,31 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="248" height="704" viewBox="0 0 248 704">
+    <g data-name="사각형 211" style="stroke:#1dcad3;stroke-dasharray:5 3;opacity:.8;fill:none">
+        <rect width="248" height="248" rx="124" style="stroke:none"/>
+        <rect x=".5" y=".5" width="247" height="247" rx="123.5" style="fill:none"/>
+    </g>
+    <text data-name="수평적 문화를 지향하고 실천하는 사람들" transform="translate(124 162)" style="font-family:SpoqaHanSansNeo-Regular,Spoqa Han Sans Neo;font-size:15px"><tspan x="-72.36" y="0">수평적 문화를 지향하고</tspan><tspan x="-49.98" y="23">실천하는 사람들</tspan></text>
+    <text transform="translate(124 121)" style="font-size:17px;opacity:.4;fill:#10b2bb;font-family:SpoqaHanSansNeo-Regular,Spoqa Han Sans Neo"><tspan x="-49.827" y="0">horizontality</tspan></text>
+    <text data-name="수평" transform="translate(124 93)" style="font-size:35px;font-family:SpoqaHanSansNeo-Bold,Spoqa Han Sans Neo;font-weight:700;fill:#10b2bb"><tspan x="-32.2" y="0">수평</tspan></text>
+    <g>
+        <g data-name="사각형 211" transform="translate(0 228)" style="stroke:#1dcad3;stroke-dasharray:5 3;opacity:.8;fill:none">
+            <rect width="248" height="248" rx="124" style="stroke:none"/>
+            <rect x=".5" y=".5" width="247" height="247" rx="123.5" style="fill:none"/>
+        </g>
+        <g data-name="TXT">
+            <text data-name="적극적인 자기개발로 회사와 함께 성장하는 사람들" transform="translate(124 379)" style="font-family:SpoqaHanSansNeo-Regular,Spoqa Han Sans Neo;font-size:15px"><tspan x="-63.78" y="0">적극적인 자기개발로</tspan><tspan x="-65.46" y="23">회사와 함께 성장하는</tspan><tspan x="-20.7" y="46">사람들</tspan></text>
+            <text transform="translate(124 338)" style="font-size:17px;opacity:.4;fill:#10b2bb;font-family:SpoqaHanSansNeo-Regular,Spoqa Han Sans Neo"><tspan x="-31.858" y="0">develop</tspan></text>
+            <text data-name="성장" transform="translate(124 309)" style="font-size:35px;font-family:SpoqaHanSansNeo-Bold,Spoqa Han Sans Neo;font-weight:700;fill:#10b2bb"><tspan x="-32.2" y="0">성장</tspan></text>
+        </g>
+    </g>
+    <g data-name="성장">
+        <g data-name="사각형 211" transform="translate(0 456)" style="stroke:#1dcad3;stroke-dasharray:5 3;opacity:.8;fill:none">
+            <rect width="248" height="248" rx="124" style="stroke:none"/>
+            <rect x=".5" y=".5" width="247" height="247" rx="123.5" style="fill:none"/>
+        </g>
+        <g data-name="TXT">
+            <text data-name="말보다는 행동으로 행동에서 습관으로 움직이는 사람들" transform="translate(124 606.999)" style="font-family:SpoqaHanSansNeo-Regular,Spoqa Han Sans Neo;font-size:15px"><tspan x="-56.88" y="0">말보다는 행동으로</tspan><tspan x="-86.16" y="23">행동에서 습관으로 움직이는</tspan><tspan x="-20.7" y="46">사람들</tspan></text>
+            <text transform="translate(124 565.999)" style="font-size:17px;opacity:.4;fill:#10b2bb;font-family:SpoqaHanSansNeo-Regular,Spoqa Han Sans Neo"><tspan x="-20.46" y="0">habit</tspan></text>
+            <text transform="translate(124 537.999)" style="font-size:35px;font-family:SpoqaHanSansNeo-Bold,Spoqa Han Sans Neo;font-weight:700;fill:#10b2bb"><tspan x="-32.2" y="0">습관</tspan></text>
+        </g>
+    </g>
+</svg>

@@ -1,0 +1,216 @@
+.prologue { 
+    @include banaple-section; 
+    text-align: center; 
+    transform: translate(0px, 50%);
+    transition: 1s ease-in-out;
+    opacity: 0;
+    &.active { transform: translate(0px, 0px); will-change: transform; opacity: 1; }
+    .text { line-height: 52px; font-size: 36px; font-weight: bold; color: #000; 
+        span { color: #1dcad3; }
+    }
+}
+.food-pro { @include banaple-section;
+    .title { 
+        line-height: 34px; 
+        font-size: 40px; 
+        font-weight: bold; 
+        text-align: center; 
+        transform: translate(0px, 100%);
+        transition: 1s ease-in-out;
+        transition-delay: 0.25s;
+        opacity: 0;
+        &.active {
+            transform: translate(0px, 0px); will-change: transform; opacity: 1;
+        }
+    }
+    .description { 
+        line-height: 30px; 
+        padding-top: 40px; 
+        font-size: 18px; 
+        color: #666; 
+        text-align: center; 
+        transform: translate(0px, 50%);
+        transition: 1s ease-in-out;
+        transition-delay: 0.5s;
+        opacity: 0;
+        &.active { transform: translate(0px, 0px); will-change: transform; opacity: 1; }
+    }
+    .contents-form { 
+        display: flex; 
+        margin-top: 83px; 
+        justify-content: center; 
+        gap: 160px; 
+        transition: 1s ease-in-out; 
+        transition-delay: 0.7s; 
+        opacity: 0;
+        &.active { opacity: 1; }
+        .banaple { position: relative; 
+            &:after { 
+                content: '';
+                position: absolute;
+                top: calc(50% - 26.5px);
+                right: -133px;
+                width: 112px;
+                height: 53px;
+                background: url('../../assets/images/icon/i_arrow_rnl.svg') 0 0 no-repeat;
+            }
+        }
+        .banaple,.banaple-fnb { width: 270px; padding: 30px 0px; text-align: center; box-shadow: 9px 19px 27px 0 rgba(0, 0, 0, 0.03); 
+            .contents-title { padding-top: 8px; font-size: 18px; color: #999; }
+            .form-img { padding-top: 32px; }
+            .contents-description { padding-top: 32px; font-size: 20px; color: #666; }
+        }
+    }
+    .contents-list { display: flex; position: relative; padding-top: 192px; justify-content: space-between; @include activeFadein();
+        &:after { 
+            content: '';
+            position: absolute;
+            top: 61px;
+            left: 50%;
+            background: url(../../assets/images/icon/i_arrow_big.png) 0 0 no-repeat;
+            width: 154px;
+            height: 70px;
+            transform: translate(-50%, 0);
+        }
+        .list-item { padding-top: 215px; width: 190px; text-align: center; @include beforeFadein(100%,0%);
+            @for $i from 1 through 4 {
+                &:nth-child(#{$i}) { background: #fff url('../../assets/images/common/fom_0#{$i}.png') 0 0 no-repeat; }
+            }
+            .contents-title { line-height: 30px; font-size: 26px; font-weight: bold; color: #000;}
+            .contents-description { line-height: 30px; padding-top: 10px; font-size: 20px; color: #666; }
+        }
+    }
+}
+.food-pro-contents { margin-top: 110px;
+    .list-wrap {
+        .list-item { padding: 110px 0px;
+            &:nth-child(odd) { background: #f8f8f8; } 
+            &:nth-child(even) {
+                .inner { flex-direction: row-reverse; gap: 100px; 
+                    .image { 
+                        transform: translate(100%, 0);
+                    }
+                }
+            } 
+            &.active {
+                .inner {
+                    .image { transform: translate(0%); opacity: 1; }
+                    .contents { transform: translate(0%); opacity: 1; }
+                }
+            } 
+            .inner { 
+                display: flex; 
+                width: 1136px; 
+                margin: 0 auto; 
+                align-items: center; 
+                gap: 48px; 
+                overflow: hidden;
+                .image { 
+                    position: relative;
+                    overflow: hidden;
+                    transform: translate(-100%, 0);
+                    transition: 1s ease-in-out;
+                    opacity: 0;
+                }
+                .contents { transform: translate(0, 100%); transition: 1s ease-in-out; opacity: 0; }
+            }
+            .contents {
+                .keyword { display: inline; font-size: 18px; color: #1dcad3; border-bottom: 1px solid #1dcad3; }
+                .contents-title { line-height: 54px; padding-top: 18px; letter-spacing: -2px; font-size: 40px; font-weight: bold; }
+                .contents-description { padding-top: 37px; 
+                    li { 
+                        position: relative; 
+                        line-height: 30px; 
+                        padding-left: 7px;
+                        margin-top: 18px;
+                        font-size: 20px; 
+                        color: #666; 
+                        &:first-child { margin-top: 0px; }
+                        &:before { 
+                            content: '';
+                            position: absolute;
+                            top: 14px;
+                            left: 0px;
+                            width: 3px;
+                            height: 3px;
+                            margin-right: 4px;
+                            background: #666;
+                        }
+                    }
+                }
+            }
+        }
+    }
+}
+
+@media (max-width: 1240px) { 
+    .prologue { width: auto; margin: 13.889vw auto 0vw; 
+        .text { line-height: 8.333vw; font-size: 5.556vw; }
+    }
+    .food-pro { width: auto; margin: 13.889vw auto 0vw;
+        .title { line-height: 9.444vw; font-size: 6.667vw; }
+        .description { 
+            line-height: 6.944vw;
+            padding-top: 5.556vw;
+            margin: 0vw 5.556vw;
+            font-size: 4.167vw;
+            text-align: center;
+        }
+        .contents-form { margin-top: 13.889vw; flex-direction: column; align-items: center; gap: 0vw; 
+            .banaple {
+                &:after { 
+                    top: auto;
+                    right: 50%;
+                    bottom: -19.444vw;
+                    width: 14.722vw;
+                    height: 13.889vw;
+                    margin-right: -7.361vw;
+                    background: url('../../assets/images/mobile/i_arrow_rnl.svg') 0 0 no-repeat;
+                    background-size: 14.722vw 13.889vw;
+                }
+            }
+            .banaple,.banaple-fnb { width: 75vw; padding: 8.333vw 0vw; text-align: center; box-shadow: 2.5vw 5.278vw 7.5vw 0 rgba(0, 0, 0, 0.03); 
+                .contents-title { padding-top: 2.222vw; font-size: 5vw; color: #999; }
+                .form-img { padding-top: 8.889vw; }
+                .contents-description { padding-top: 8.889vw; font-size: 5.556vw; color: #666; }
+            }
+            .banaple-fnb { margin-top: 25vw; }
+        }
+        .contents-list {
+            display: flex;
+            position: relative;
+            padding-top: 36.111vw;
+            justify-content: center;
+            flex-wrap: wrap;
+            flex-direction: row;
+            gap: 2.778vw;
+            overflow: hidden;
+            &:after { top: 8.333vw; width: 42.778vw; height: 20.556vw; background-size: 42.778vw 20.556vw; }
+            .list-item { width: 42.222vw; padding-top: 44.167vw; margin-bottom: 11.111vw; background-size: 38.333vw!important; 
+                .contents-title { font-size: 6.111vw; line-height: 6.389vw; }
+                .contents-description { line-height: 7.222vw; font-size: 4.444vw; letter-spacing: -0.139vw; }
+            }
+        }
+    }
+    .food-pro-contents { padding: 2.778vw 0vw 0vw; margin-top: 0vw; 
+        .list-wrap {
+            .list-item { padding: 13.889vw 0vw;
+                &:nth-child(even) {
+                    .inner { justify-content: flex-end; gap: 0vw; }
+                }
+                .inner { width: auto; padding: 0vw 5.556vw; flex-wrap: wrap; gap: 0vw; 
+                    .image { width: 100%; }
+                    .contents { padding: 6.944vw 0vw 0vw; 
+                        .keyword { font-size: 4.167vw; }
+                        .contents-title { line-height: 9.444vw; font-size: 6.667vw; }
+                        .contents-description { padding-top: 2.778vw;
+                            li { line-height: normal; margin-top: 3.333vw; font-size: 4.444vw; 
+                                &:before { top: 2.778vw; }
+                            }
+                        }
+                    }
+                }
+            }
+        }
+    }
+}

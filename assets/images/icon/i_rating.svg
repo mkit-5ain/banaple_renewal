@@ -1,0 +1,19 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="120" height="120" viewBox="0 0 120 120">
+    <defs>
+        <clipPath id="zho0s2wmsa">
+            <path data-name="사각형 96" transform="translate(468 1016)" style="fill:#ffd2d2" d="M0 0h40v40H0z"/>
+        </clipPath>
+    </defs>
+    <g data-name="사각형 62" style="stroke:#e8e8e8;fill:none">
+        <rect width="120" height="120" rx="60" style="stroke:none"/>
+        <rect x=".5" y=".5" width="119" height="119" rx="59.5" style="fill:none"/>
+    </g>
+    <g data-name="icon_rating" transform="translate(-428 -976)" style="clip-path:url(#zho0s2wmsa)">
+        <g data-name="4213448_analytics_bars_chart_document_graph_icon">
+            <path data-name="패스 38" d="M503.873 1023.624h-7.619V1016h-24.127v40h31.746zm-2.54 29.841h-26.667v-34.925h19.048v7.619h7.619z"/>
+            <path data-name="사각형 97" transform="translate(481.016 1040.762)" style="fill:#1dcad3" d="M0 0h2.54v6.349H0z"/>
+            <path data-name="사각형 98" transform="translate(486.73 1034.413)" style="fill:#1dcad3" d="M0 0h2.54v12.698H0z"/>
+            <path data-name="사각형 99" transform="translate(492.444 1037.587)" style="fill:#1dcad3" d="M0 0h2.54v9.524H0z"/>
+        </g>
+    </g>
+</svg>

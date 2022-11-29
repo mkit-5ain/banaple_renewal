@@ -1,0 +1,22 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="120" height="120" viewBox="0 0 120 120">
+    <defs>
+        <clipPath id="n3hyuqir6a">
+            <path data-name="사각형 87" transform="translate(463 1011)" style="fill:#ff5757" d="M0 0h40v40H0z"/>
+        </clipPath>
+    </defs>
+    <g data-name="사각형 62" style="stroke:#e8e8e8;fill:none">
+        <rect width="120" height="120" rx="60" style="stroke:none"/>
+        <rect x=".5" y=".5" width="119" height="119" rx="59.5" style="fill:none"/>
+    </g>
+    <g data-name="icon_establish" transform="translate(-423 -971)" style="clip-path:url(#n3hyuqir6a)">
+        <g data-name="4213476_apartment_architecture_building_city_company_icon">
+            <path data-name="패스 29" d="M499.187 1048.46h-4.441V1011h-23.492v24.761h-4.445v2.54h6.984v-24.757h18.413v34.916h-18.413v-7.3h-2.54v7.3h-4.444v2.54h32.378z"/>
+            <path data-name="사각형 88" transform="translate(477.92 1019.254)" style="fill:#1dcad3" d="M0 0h2.54v2.54H0z"/>
+            <path data-name="사각형 89" transform="translate(485.539 1019.254)" style="fill:#1dcad3" d="M0 0h2.54v2.54H0z"/>
+            <path data-name="사각형 90" transform="translate(477.92 1028.778)" style="fill:#1dcad3" d="M0 0h2.54v2.54H0z"/>
+            <path data-name="사각형 91" transform="translate(485.539 1028.778)" style="fill:#1dcad3" d="M0 0h2.54v2.54H0z"/>
+            <path data-name="사각형 92" transform="translate(477.92 1038.302)" style="fill:#1dcad3" d="M0 0h2.54v2.54H0z"/>
+            <path data-name="사각형 93" transform="translate(485.539 1038.302)" style="fill:#1dcad3" d="M0 0h2.54v2.54H0z"/>
+        </g>
+    </g>
+</svg>
