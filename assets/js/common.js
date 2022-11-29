@@ -1,6 +1,6 @@
 document.addEventListener("DOMContentLoaded", () => {
     let myFullpage = new fullpage('#fullpage', {});
-    videoControl();
+    // videoControl();
     menuEvent();
     depthEvent('.depth');
 });
