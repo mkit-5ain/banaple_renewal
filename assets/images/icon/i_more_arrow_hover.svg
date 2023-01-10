@@ -1,12 +1,12 @@
-<svg xmlns="http://www.w3.org/2000/svg" width="20" height="20" viewBox="0 0 20 20">
+<svg xmlns="http://www.w3.org/2000/svg" width="27" height="27" viewBox="0 0 27 27">
     <defs>
-        <clipPath id="zdjt2n1vha">
-            <path data-name="사각형 140" style="fill:#fff;stroke:#707070" d="M0 0h20v20H0z"/>
+        <clipPath id="4wdimvjyaa">
+            <path data-name="사각형 140" transform="translate(-.151 -.151)" style="fill:#fff;stroke:#707070" d="M0 0h27v27H0z"/>
         </clipPath>
     </defs>
-    <g style="clip-path:url(#zdjt2n1vha)">
-        <path data-name="사각형 137" transform="translate(5)" style="fill:#1dcad3" d="M0 0h15v1H0z"/>
-        <path data-name="사각형 138" transform="rotate(90 10 10)" style="fill:#1dcad3" d="M0 0h15v1H0z"/>
-        <path data-name="사각형 139" transform="rotate(-45 23.147 9.303)" style="fill:#1dcad3" d="M0 0h26.793v1H0z"/>
+    <g transform="translate(.151 .151)" style="clip-path:url(#4wdimvjyaa)">
+        <path data-name="사각형 137" transform="translate(6.849 -.151)" style="fill:#1dcad3" d="M0 0h20v1H0z"/>
+        <path data-name="사각형 138" transform="rotate(90 13.5 13.349)" style="fill:#1dcad3" d="M0 0h20v1H0z"/>
+        <path data-name="사각형 139" transform="rotate(-45 31.073 12.49)" style="fill:#1dcad3" d="M0 0h35.968v1.342H0z"/>
     </g>
 </svg>

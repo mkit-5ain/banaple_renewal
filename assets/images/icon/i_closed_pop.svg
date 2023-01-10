@@ -1,0 +1,11 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="30" height="30" viewBox="0 0 30 30">
+    <defs>
+        <clipPath id="4vk8gdy9qa">
+            <path data-name="사각형 292" style="fill:#fff;stroke:#707070" d="M0 0h30v30H0z"/>
+        </clipPath>
+    </defs>
+    <g style="clip-path:url(#4vk8gdy9qa)">
+        <path data-name="사각형 290" d="m29.85 28.284-1.414 1.414L.152 1.414 1.566 0z"/>
+        <path data-name="사각형 291" d="M1.564 29.698.15 28.284 28.434 0l1.414 1.414z"/>
+    </g>
+</svg>

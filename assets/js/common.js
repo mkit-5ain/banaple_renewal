@@ -1,10 +1,14 @@
 document.addEventListener("DOMContentLoaded", () => {
-    let myFullpage = new fullpage('#fullpage', {});
-    // videoControl();
     menuEvent();
     depthEvent('.depth');
+    swiper('.main-swiper');
+    responsiveCheck();
+    sectionAction();
 });
 
+window.onresize = function () {
+    responsiveCheck();
+}
 
 function menuEvent () {
     let ele = document.querySelector('.menu-btn');
@@ -24,16 +28,7 @@ function depthEvent () {
 function videoControl () {
     const video = document.querySelector('.video');
     const audio = document.querySelector('.video-sound');
-    // const play = document.querySelector('.play');
     const progressBar = document.querySelector('.progress-bar');
-
-    // function playPauseMedia () {
-    //     if (video.paused) {
-    //         video.play();
-    //     } else {
-    //         video.pause();
-    //     }
-    // }
 
     function soundPause () {
         if (video.muted) {
@@ -50,10 +45,51 @@ function videoControl () {
         progressBar.style.width = `${percent}%`;
     }
 
-    // play.addEventListener('click', playPauseMedia);
     audio.addEventListener('click', soundPause);
     video.addEventListener('timeupdate', handleProgress);
     video.muted = true;
     video.loop = true;
     video.play();
 }
+
+function swiper (SwiperObj) {
+    let swiper = new Swiper(SwiperObj, {
+        loop: true,
+        pagination: {
+        	el: ".swiper-pagination",
+            clickable: true,
+            type : 'bullets',
+		}
+    });
+}
+
+function responsiveCheck () {
+    let windowWidth = window.matchMedia('screen and (max-width: 1240px)');
+    if (windowWidth.matches) {
+        swiper();
+    } else {
+        videoControl();
+    }
+}
+
+function sectionAction () {
+    const header = document.querySelector('header');
+    const videoEle = document.querySelector('.video-wrap');
+    const contactEle = document.querySelector('.contact-wrap');
+    
+    function scrollAction () {   
+        let windowScroll = window.scrollY;
+
+        if ( videoEle.getBoundingClientRect().height > windowScroll || contactEle.offsetTop < windowScroll && contactEle.offsetTop + contactEle.offsetHeight >= windowScroll ) {
+            header.classList.add('reverse');
+        } else if ( videoEle.getBoundingClientRect().height < windowScroll || contactEle.offsetTop + contactEle.offsetHeight < windowScroll ) {
+            header.classList.remove('reverse');
+        }
+    }
+    scrollAction();
+    window.addEventListener('scroll', function () {
+        scrollAction();
+    });
+}
+
+

@@ -31,17 +31,6 @@ function responsiveCheck () {
     }
 }
 
-// function urlCheck( ) {
-//     let banaple = document.querySelector('.gnb-banaple')
-//     let urlPath = location.pathname.split('/')[1];
-//     let gnbLength = ['index.html','banaple.html','service.html','recruit.html'];
-//     if (urlPath == gnbLength[0]) {
-//     } else if (urlPath == gnbLength[1]) {
-//         console.log(banaple);
-//     } else if (urlPath == gnbLength[2]) {
-//     } else if (urlPath == gnbLength[3]) {
-//     }
-// }
 
 function eleInclude () {
     window.addEventListener('load', function() {

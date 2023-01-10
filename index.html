@@ -5,18 +5,18 @@
         <meta http-equiv="X-UA-Compatible" content="IE=edge">
         <meta name="viewport" content="width=device-width, initial-scale=1.0">
         <title>Document</title>
-        <link href='https://spoqa.github.io/spoqa-han-sans/css/SpoqaHanSansNeo.css' rel='stylesheet' type='text/css'>
+        <link href='http://spoqa.github.io/spoqa-han-sans/css/SpoqaHanSansNeo.css' rel='stylesheet' type='text/css'>
         <link rel="stylesheet" href="assets/css/common.css">
         <script src="https://cdn.jsdelivr.net/npm/swiper/swiper-bundle.min.js"></script>
-        <script src="assets/js/fullpage.js"></script>
         <script src="assets/js/common.js"></script>
         <script src="assets/js/parallax.js"></script>
     </head>
     <body>
+        <!-- header -->
         <header>
             <a class="main-logo" href="index.html"></a>
             <ul class="category pc-layout">
-                <li class="list-item active"><a href="index.html">overview</a></li>
+                <li class="list-item active"><a href="#service">overview</a></li>
                 <li class="list-item"><a href="banaple.html">banaple</a></li>
                 <li class="list-item"><a href="service.html">Service</a>
                     <ul class="item-depth">
@@ -32,7 +32,7 @@
                 <div class="menu-btn"><span></span></div>
                 <div class="menu-view">
                     <ul class="menu-list">
-                        <li class="list-item"><a href="index.html">overview</a></li>
+                        <li class="list-item"><a href="#service-wrap">overview</a></li>
                         <li class="list-item"><a href="banaple.html">banaple</a></li>
                         <li class="list-item depth">
                             <p>service</p>
@@ -48,95 +48,178 @@
                 </div>
             </div>
         </header>
-        <article id="fullpage" class="container">
-            <section class="section active" id="section0">
-                <div class="banner-area">
-                    <div class="swiper main-swiper">
-                        <div class="swiper-wrapper">
-                            <div class="swiper-slide">
-                                <div class="banner-wrap">
-                                    <!-- <video class="video" src="assets/video/banaple_video.mp4" playsinline></video> -->
-                                    <div class="controls">
-                                        <!-- <button class="play">play</button> -->
-                                        <div class="progress">
-                                            <div class="progress-bar"></div>
-                                        </div>
-                                    </div>
+        <!-- header -->
+        <!-- container -->
+        <article class="container">
+            <!-- video -->
+            <section class="video-wrap">
+                <div class="inner-wrap">
+                    <!-- pc layout -->
+                    <div class="banner-area pc-layout">
+                        <div class="banner-wrap">
+                            <video class="video" src="assets/video/banaple_video.mp4" playsinline></video>
+                            <div class="controls">
+                                <!-- <button class="play">play</button> -->
+                                <div class="progress">
+                                    <div class="progress-bar"></div>
                                 </div>
                             </div>
                         </div>
-                        <!-- <div class="swiper-btn-wrap">
-                            <div class="swiper-pagination"></div>
-                            <div class="swiper-button-prev"></div>
-                            <div class="swiper-button-next"></div>
-                        </div>     -->
+                        <div class="scroll-status">scroll</div>
+                        <div class="video-sound"></div>
                     </div>
-                    <div class="scroll-status">scroll</div>
-                    <div class="video-sound"></div>
+                    <!-- // pc layout -->
+                    <!-- mobile layout -->
+                    <div class="banner-area mobile-layout">
+                        <div class="swiper main-swiper">
+                            <div class="swiper-wrapper">
+                                <div class="swiper-slide">
+                                    <div class="banner-wrap">
+                                        <img src="assets/images/mobile/visual_01.png">
+                                    </div>
+                                    <div class="swiper-description">
+                                        온라인과<br>
+                                        오프라인을<br>
+                                        연결하여 새로운<br>
+                                        세상을 만드는<br>
+                                        <span class="point">BANAPLE.</span>
+                                    </div>
+                                </div>
+                                <div class="swiper-slide">
+                                    <div class="banner-wrap">
+                                        <img src="assets/images/mobile/visual_02.png">
+                                    </div>
+                                    <div class="swiper-description">
+                                        우리는<br>
+                                        연결을 통한<br>
+                                        새로운 움직임을<br>
+                                        만들어 나아갑니다.<br>
+                                        <span class="point">O2O Platform.</span>
+                                    </div>
+                                </div>
+                                <div class="swiper-slide">
+                                    <div class="banner-wrap">
+                                        <img src="assets/images/mobile/visual_03.png">
+                                    </div>
+                                    <div class="swiper-description">
+                                        우리는 만듦에서<br>
+                                        끝내지 않고<br>
+                                        늘 새로운 앞날을<br>
+                                        그려갑니다.<br>
+                                        <span class="point">Start of Change.</span>
+                                    </div>
+                                </div>
+                                <div class="swiper-slide">
+                                    <div class="banner-wrap">
+                                        <img src="assets/images/mobile/visual_04.png">
+                                    </div>
+                                    <div class="swiper-description">
+                                        바나플은<br>
+                                        신사업 추진으로<br>
+                                        새로운 도약을<br>
+                                        준비합니다.<br>
+                                        <span class="point">New Beginning.</span>
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="swiper-btn-wrap">
+                                <div class="swiper-pagination"></div>
+                            </div>    
+                        </div>
+                        <div class="scroll-status">scroll</div>
+                    </div>
+                    <!-- // mobile layout -->
                 </div>
             </section>
-            <section class="section" id="section1">
-                <div class="main-title">service</div>
-                <div class="main-description pc-layout">
-                    <p>우리는 바나플 플랫폼을 통해 연결을 통한</p>
-                    <p>새로운 움직임을 만들어 나아갑니다.</p>
-                </div>
-                <div class="main-description mobile-layout">
-                    <p>우리는 바나플 플랫폼을 통해</p>
-                    <p>연결을 통한 새로운 움직임을</p>
-                    <p>만들어 나아갑니다.</p>
-                </div>
-                <div class="contents-wrap action">
-                    <div class="banapresso">
-                        <div class="number">01</div>
-                        <div class="title">banapresso</div>
-                        <div class="description pc-layout">
-                            <p>모바일앱, 키오스크, POS 및</p>
-                            <p>주변기기의 통합관리가 가능한 FoodPro 솔루션을</p>
-                            <p>통해 안정적이고 효율적인 매장운영이 가능합니다.</p>
-                        </div>
-                        <div class="description mobile-layout">
-                            <p>모바일앱, 키오스크, POS 및 주변기기의</p>
-                            <p>통합관리가 가능한 FoodPro 솔루션을 통해</p>
-                            <p>안정적이고 효율적인 매장운영이 가능합니다.</p>
-                        </div>
-                        <a class="btn-more" href="">more</a>
+            <!-- // video-->
+            <!-- service -->
+            <section id="service" class="service-wrap">
+                <div class="title-wrap">
+                    <div class="main-title">service</div>
+                    <!-- pc layout -->
+                    <div class="main-description pc-layout">
+                        <p>우리는 바나플 플랫폼을 통해 연결을 통한</p>
+                        <p>새로운 움직임을 만들어 나아갑니다.</p>
                     </div>
-                    <div class="quick-service">
-                        <div class="number">02</div>
-                        <div class="title">Quick Service</div>
-                        <div class="description pc-layout">
-                            <p>모바일기기를 이용한 실시간 관제, 업체간 콜 공유 및</p>
-                            <p>자동 배차 시스템 그리고 회원사들을 위한</p>
-                            <p>범용 PC/모바일 웹주문 서비스의 제공까지 바나플의</p>
-                            <p>퀵서비스 플랫폼은 끊임없이 발전하고 있습니다.</p>
-                        </div>
-                        <div class="description mobile-layout">
-                            <p>모바일기기를 이용한 실시간 관제, 업체간</p>
-                            <p>콜 공유 및 자동 배차 시스템 그리고 </p>
-                            <p>회원사들을 위한 범용 PC/모바일 웹주문</p>
-                            <p>서비스의 제공까지 바나플의 퀵서비스 플랫폼은</p>
-                            <p> 끊임없이 발전하고 있습니다.</p>
-                        </div>
-                        <a class="btn-more" href="">more</a>
+                    <!-- // pc layout -->
+                    <!-- mobile layout -->
+                    <div class="main-description mobile-layout">
+                        <p>우리는 바나플 플랫폼을 통해</p>
+                        <p>연결을 통한 새로운 움직임을</p>
+                        <p>만들어 나아갑니다.</p>
                     </div>
-                    <div class="newbiz">
-                        <div class="number">03</div>
-                        <div class="title">New Biz</div>
-                        <div class="description">
-                            <p>바나플은 현재에 머무르지 않고 끊임없는</p>
-                            <p>기술개발과 혁신, 변화를 통해 지속 가능한</p>
-                            <p>새로운 미래 가치 창출을 추구합니다.</p>
+                    <!-- // mobile layout -->
+                </div>
+                <div class="contents-wrap">
+                    <div class="banapresso action">
+                        <img class="image" src="assets/images/common/banner_banapreso.png" alt="banapresso">
+                        <div class="contents">
+                            <div class="number">01</div>
+                            <div class="title">Banapresso</div>
+                            <div class="description pc-layout">
+                                <p>모바일앱, 키오스크, POS 및</p>
+                                <p>주변기기의 통합관리가 가능한 FoodPro 솔루션을</p>
+                                <p>통해 안정적이고 효율적인 매장운영이 가능합니다.</p>
+                            </div>
+                            <div class="description mobile-layout">
+                                <p>모바일앱, 키오스크, POS 및 주변기기의</p>
+                                <p>통합관리가 가능한 FoodPro 솔루션을 통해</p>
+                                <p>안정적이고 효율적인 매장운영이 가능합니다.</p>
+                            </div>
+                            <a class="btn-more" href="">more</a>
                         </div>
-                        <a class="btn-more" href="">more</a>
+                    </div>
+                    <div class="quick-service action">
+                        <img class="image" src="assets/images/common/banner_quick.png" alt="banapresso">
+                        <div class="contents">
+                            <div class="number">02</div>
+                            <div class="title">Quick Service</div>
+                            <div class="description pc-layout">
+                                <p>모바일기기를 이용한 실시간 관제, 업체간 콜 공유 및</p>
+                                <p>자동 배차 시스템 그리고 회원사들을 위한</p>
+                                <p>범용 PC/모바일 웹주문 서비스의 제공까지 바나플의</p>
+                                <p>퀵서비스 플랫폼은 끊임없이 발전하고 있습니다.</p>
+                            </div>
+                            <div class="description mobile-layout">
+                                <p>모바일기기를 이용한 실시간 관제, 업체간</p>
+                                <p>콜 공유 및 자동 배차 시스템 그리고 </p>
+                                <p>회원사들을 위한 범용 PC/모바일 웹주문</p>
+                                <p>서비스의 제공까지 바나플의 퀵서비스 플랫폼은</p>
+                                <p> 끊임없이 발전하고 있습니다.</p>
+                            </div>
+                            <a class="btn-more" href="">more</a>
+                        </div>
+                    </div>
+                    <div class="newbiz action">
+                        <img class="image" src="assets/images/common/banner_newbiz.png" alt="banapresso">
+                        <div class="contents">
+                            <div class="number">03</div>
+                            <div class="title">New Biz</div>
+                            <div class="description pc-layout">
+                                <p>바나플은 현재에 머무르지 않고 끊임없는 기술개발과</p>
+                                <p>혁신, 변화를 통해 지속 가능한 새로운 미래 가치 창출을</p>
+                                <p>추구합니다.</p>
+                            </div>
+                            <div class="description mobile-layout">
+                                <p>바나플은 현재에 머무르지 않고 끊임없는</p>
+                                <p>기술개발과 혁신, 변화를 통해 지속 가능한</p>
+                                <p>새로운 미래 가치 창출을 추구합니다.</p>
+                            </div>
+                            <a class="btn-more" href="">more</a>
+                        </div>
                     </div>
                 </div>
             </section>
-            <section class="section" id="section2">
-                <div class="main-title">start of Change</div>
-                <div class="main-description">
-                    <p>바나플은 만듦에서 끝내지 않고</p>
-                    <p>늘 새로운 앞날을 그려갑니다.</p>
+            <!-- // service -->
+            <!-- start of change -->
+            <!-- 2023-01-05 -->
+            <section class="start-change-wrap">
+                <div class="title-wrap">
+                    <div class="main-title">start of Change</div>
+                    <div class="main-description">
+                        <p>바나플은 만듦에서 끝내지 않고</p>
+                        <p>늘 새로운 앞날을 그려갑니다.</p>
+                    </div>
                 </div>
                 <div class="content-wrap">
                     <ul class="contents-list">
@@ -145,11 +228,14 @@
                             <div class="contents">
                                 <p class="title">start <span class="point">.</span></p>
                                 <p class="date">2003~2006</p>
+                                <!-- pc layout -->
                                 <div class="description pc-layout">
                                     <p class="text">O2O란 말 자체가 존재하지 않을 시기인 2003년에 설립되어</p>
                                     <p class="text">퀵서비스와 대리운전 솔루션을 개발하였고 2005년에는</p>
                                     <p class="text">국내 최초 대리운전 콜 공유 시스템 및 통신 3사 휴대폰 배차 어플을 개발하였습니다.</p>
                                 </div>
+                                <!-- // pc layout -->
+                                <!-- mobile layout -->
                                 <div class="description mobile-layout">
                                     <p class="text">O2O란 말 자체가 존재하지 않을 시기인</p>
                                     <p class="text">2003년에 설립되어 퀵서비스와 대리운전</p>
@@ -157,6 +243,7 @@
                                     <p class="text">대리운전 콜 공유 시스템 및 통신 3사 휴대폰</p>
                                     <p class="text">배차 어플을 개발하였습니다.</p>
                                 </div>
+                                <!-- // mobile layout -->
                             </div>
                         </li>
                         <li class="list-item action">
@@ -164,12 +251,15 @@
                             <div class="contents">
                                 <p class="title">growth <span class="point">.</span></p>
                                 <p class="date">2007~2016</p>
+                                <!-- pc layout -->
                                 <div class="description pc-layout">
                                     <p class="text">2006년에 전국 퀵서비스 솔루션 점유율 1위를 달성하였고</p>
                                     <p class="text">2007년에는 전국 대리운전 솔루션 점유율 1위를 달성하였으며</p>
                                     <p class="text">2011년에는 국민은행 유망중소기업 및</p>
                                     <p class="text">2016년 고용노동부 지정 강소기업으로 선정되었습니다.</p>
                                 </div>
+                                <!-- // pc layout -->
+                                <!-- mobile layout -->
                                 <div class="description mobile-layout">
                                     <p class="text">2006년에 전국 퀵서비스 솔루션 점유율 1위를</p>
                                     <p class="text">달성하였고 2007년에는 전국 대리운전</p>
@@ -177,6 +267,7 @@
                                     <p class="text">국민은행 유망중소기업 및 2016년 고용노동부</p>
                                     <p class="text">지정 강소기업으로 선정되었습니다.</p>
                                 </div>
+                                <!-- // mobile layout -->
                             </div>
                         </li>
                         <li class="list-item action">
@@ -184,11 +275,14 @@
                             <div class="contents">
                                 <p class="title">mature <span class="point">.</span></p>
                                 <p class="date">2017~2021</p>
+                                <!-- pc layout -->
                                 <div class="description pc-layout">
                                     <p class="text">2017년 매장관리 시스템 FoodPro를 출시하였고</p>
                                     <p class="text">2018년부터 무인 주문 관련 시스템을 개발하여 카페 바나프레소에 공급하였으며</p>
                                     <p class="text">지속적인 기술투자와 업그레이드를 통해 효율적이고 안정적으로 운영하고 있습니다.</p>
                                 </div>
+                                <!-- // pc layout -->
+                                <!-- mobile layout -->
                                 <div class="description mobile-layout">
                                     <p class="text">2017년 매장관리 시스템 FoodPro를</p>
                                     <p class="text">출시하였고 2018년부터 무인 주문 관련</p>
@@ -203,12 +297,15 @@
                             <div class="contents">
                                 <p class="title"><span>new</span> beginning <span class="point">.</span></p>
                                 <p class="date">2022~</p>
+                                <!-- pc layout -->
                                 <div class="description pc-layout">
                                     <p class="text">그리고 2022년 대리운전 사업의 티맵모빌리티로의</p>
                                     <p class="text">매각을 통해 확보된 자금으로 2023년 무인제조 카페 시스템 출시(예정),</p>
                                     <p class="text">2024년 바나프레소와의 합병(예정) 및 다양한 신사업을 추진하여</p>
                                     <p class="text">한번 더 새로운 도약을 준비하고 있습니다.</p>
                                 </div>
+                                <!-- // pc layout -->
+                                <!-- mobile layout -->
                                 <div class="description mobile-layout">
                                     <p class="text">그리고 2022년 대리운전 사업의</p>
                                     <p class="text">티맵모빌리티로의 매각을 통해 확보된 자금으로</p>
@@ -217,12 +314,16 @@
                                     <p class="text">신사업을 추진하여 한번 더 새로운 도약을</p>
                                     <p class="text">준비하고 있습니다.</p>
                                 </div>
+                                <!-- // mobile layout -->
                             </div>
                         </li>
                     </ul>
                 </div>
             </section>
-            <section class="section" id="section3">
+            <!-- // 2023-01-05 -->
+            <!-- //start of change -->
+            <!-- banaple -->
+            <section id="contact" class="contact-wrap">
                 <div class="title action pc-layout">
                     <p class="text-wrap">
                         <span>바</span>
@@ -340,11 +441,15 @@
                     <p>새로운 세상을 만드는 People</p>
                 </div>
             </section>
-            <section class="section" id="section4">
-                <div class="main-title">Contact</div>
-                <div class="main-description">
-                    <p>바나플을 통해</p>
-                    <p>당신의 상상을 구현하세요.</p>
+            <!-- // banaple -->
+            <!-- map -->
+            <section class="map-wrap">
+                <div class="title-wrap">
+                    <div class="main-title">Contact</div>
+                    <div class="main-description">
+                        <p>바나플을 통해</p>
+                        <p>당신의 상상을 구현하세요.</p>
+                    </div>
                 </div>
                 <ul class="ask-list">
                     <li class="list-item technical">
@@ -366,20 +471,24 @@
                         </a>
                     </li>
                 </ul>
-                <div class="map" style="color: #fff; text-align: center; background: #1dcad3">지도 API </div>
-                <footer>
-                    <div class="footer-logo"></div> 
-                    <div class="company-info">
-                        <ul class="info-list">
-                            <li class="list-item"><a href="">개인정보처리방침</a></li>
-                            <li class="list-item">바나플 유한회사</li>
-                            <li class="list-item">서울특별시 강남구 테헤란로81길 9 (삼성동,바나플빌딩)</li>
-                            <li class="list-item">대표자 송민기</li>
-                        </ul>
-                        <p class="copyright">© banaple Co., Ltd. All rights reserved.</p>
-                    </div>
-                </footer>
+                <div class="map">지도 API </div>
             </section>
+            <!-- //map -->
         </article>
+        <!-- // container -->
+        <!-- footer -->
+        <footer>
+            <div class="footer-logo"></div> 
+            <div class="company-info">
+                <ul class="info-list">
+                    <li class="list-item"><a href="">개인정보처리방침</a></li>
+                    <li class="list-item">바나플 유한회사</li>
+                    <li class="list-item">서울특별시 강남구 테헤란로81길 9 (삼성동,바나플빌딩)</li>
+                    <li class="list-item">대표자 송민기</li>
+                </ul>
+                <p class="copyright">© banaple Co., Ltd. All rights reserved.</p>
+            </div>
+        </footer>
+        <!-- //footer -->
     </body>
 </html>

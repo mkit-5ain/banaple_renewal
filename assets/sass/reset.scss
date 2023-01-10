@@ -1,7 +1,9 @@
 body,p,dl,ol,ul,li,dd,input,h1,h2,h3,h4,h5,h6,article,section { margin: 0px; padding: 0px; font-family: 'Spoqa Han Sans Neo', 'sans-serif'; }
+html { scroll-behavior: smooth; }
 textarea { padding: 0px; resize: none; }
 img { vertical-align: top; }
 table th,table td { font-weight: normal; }
 a { color: inherit; text-decoration: auto; }
 i { font-style: normal; }
 ol,ul,li { list-style: none;}
+button { border: 0px; }

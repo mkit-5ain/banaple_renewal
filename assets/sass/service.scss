@@ -72,9 +72,9 @@
             height: 70px;
             transform: translate(-50%, 0);
         }
-        .list-item { padding-top: 215px; width: 190px; text-align: center; @include beforeFadein(100%,0%);
+        .list-item { padding-top: 230px; width: 250px; text-align: center; @include beforeFadein(100%,0%);
             @for $i from 1 through 4 {
-                &:nth-child(#{$i}) { background: #fff url('../../assets/images/common/fom_0#{$i}.png') 0 0 no-repeat; }
+                &:nth-child(#{$i}) { background: #fff url('../../assets/images/common/fom_0#{$i}.png') 0 -10px no-repeat; }
             }
             .contents-title { line-height: 30px; font-size: 26px; font-weight: bold; color: #000;}
             .contents-description { line-height: 30px; padding-top: 10px; font-size: 20px; color: #666; }
@@ -186,7 +186,7 @@
             gap: 2.778vw;
             overflow: hidden;
             &:after { top: 8.333vw; width: 42.778vw; height: 20.556vw; background-size: 42.778vw 20.556vw; }
-            .list-item { width: 42.222vw; padding-top: 44.167vw; margin-bottom: 11.111vw; background-size: 38.333vw!important; 
+            .list-item { width: 42.222vw; padding-top: 44.167vw; margin-bottom: 11.111vw; background-size: 38.333vw!important; background-position: center 0px!important;
                 .contents-title { font-size: 6.111vw; line-height: 6.389vw; }
                 .contents-description { line-height: 7.222vw; font-size: 4.444vw; letter-spacing: -0.139vw; }
             }
