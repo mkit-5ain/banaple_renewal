@@ -307,7 +307,7 @@
     }
 }
 /* 2023-01-05 */
-.map-wrap { display: flex; margin-top: 90px; flex-direction: column; justify-content: flex-end;
+.map-wrap { display: flex; padding-top: 90px; flex-direction: column; justify-content: flex-end; /* 2023-01-10 */
     .ask-list { 
         display: flex; 
         padding: 40px 0px;
@@ -384,33 +384,45 @@
                     height: 100%;
                     background: rgba(0,0,0,0.6);
                 }
-            }
-            .swiper-description { 
-                position: absolute; 
-                top: 36.111vw; 
-                left: 5.556vw; 
-                line-height: 12.222vw; 
-                font-size: 9.444vw; 
-                font-weight: bold;
-                justify-content: normal; 
-                z-index: 11; 
-                color: #fff; 
-                .point { 
-                    display: block; 
-                    line-height: 10.278vw;
-                    margin-top: 4.167vw; 
-                    font-size: 7.778vw; 
-                    color: $primary-color; 
+                /* 2023-01-10 */
+                &-active {
+                    .swiper-description {
+                        p {
+                            span { transform: translate(0px, 0px)!important; }
+                        }
+                    }
                 }
+                .swiper-description { 
+                    position: absolute; 
+                    top: 36.111vw; 
+                    left: 5.556vw; 
+                    line-height: 12.222vw; 
+                    font-size: 9.444vw; 
+                    font-weight: bold;
+                    justify-content: normal; 
+                    z-index: 11; 
+                    color: #fff; 
+                    p { overflow: hidden;
+                       span { display: block; transform: translate(0px, 100%); transition: .7s ease; } 
+                    }
+                    .point { 
+                        display: block; 
+                        line-height: 10.278vw;
+                        margin-top: 4.167vw; 
+                        font-size: 7.778vw; 
+                        color: $primary-color; 
+                    }
+                }
+                /* // 2023-01-10 */
             }
         }
     }
-    .service-wrap { padding-top: 29.444vw;
+    .service-wrap { padding-top: 104px;
         .contents-wrap { margin-top: 8.3333vw; align-items: baseline; flex-direction: column;
             > div { width: 100%; min-height: 122.222vw;
-                &:after { background: #000; opacity: 0.7; }
+                &:after { background: #000!important; opacity: 0.7; }
                 &:hover { content: none; }
-                .image { height: 100%; transform: none; transition: none; }
+                .image { height: 100%; transform: none!important; transition: none; }
                 .contents { padding: 8.333vw 5.556vw 11.111vw 5.556vw; }
             }
             .number { font-size: 48px; line-height: normal; -webkit-text-stroke: 1px #1dcad3; }
@@ -421,8 +433,7 @@
             }
         }
     }
-    /* 2023-01-05 */
-    .start-change-wrap { margin-top: 0px;
+    .start-change-wrap { margin-top: 104px;
         .fp-overflow { width: auto; padding: 0px; }
         .content-wrap { margin-top: 8.3333vw; 
             .contents-list {
@@ -444,8 +455,6 @@
             }
         }
     }
-    /* // 2023-01-05 */
-    /* 2023-01-05 */
     .contact-wrap {
         .title { line-height: 9.4444vw; font-size: 6.1111vw; 
             .text-wrap {
@@ -459,9 +468,7 @@
             }
         }
     }
-    /* //2023-01-05 */
-    /* 2023-01-05 */
-    .map-wrap { margin-top: 29.444vw;
+    .map-wrap { padding-top: 29.444vw; /* 2023-01-10 */
         .ask-list { 
             padding: 8.3333vw 0px;
             margin-top: 8.3333vw;
@@ -504,5 +511,4 @@
             background: #1dcad3;
         }
     }
-    /* // 2023-01-05 */
 }

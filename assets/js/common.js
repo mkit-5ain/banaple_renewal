@@ -52,9 +52,18 @@ function videoControl () {
     video.play();
 }
 
+/**
+ * 
+ * @param {*} SwiperObj 
+ * 2023-01-10
+ */
 function swiper (SwiperObj) {
     let swiper = new Swiper(SwiperObj, {
         loop: true,
+        autoplay: {
+            delay: 5000,
+            disableOnInteraction: false,
+        },
         pagination: {
         	el: ".swiper-pagination",
             clickable: true,
