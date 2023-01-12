@@ -1,0 +1,18 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="160" height="160" viewBox="0 0 160 160">
+    <defs>
+        <clipPath id="31lwp642qa">
+            <path data-name="사각형 314" transform="translate(496 1630)" style="fill:#4a4a4a" d="M0 0h54v54H0z"/>
+        </clipPath>
+    </defs>
+    <g transform="translate(-443 -1577)">
+        <rect data-name="사각형 272" width="160" height="160" rx="80" transform="translate(443 1577)" style="fill:#1dcad3"/>
+        <g data-name="마스크 그룹 76" style="clip-path:url(#31lwp642qa)">
+            <g data-name="4213441_community_group_leader_people_team_icon (2)">
+                <path data-name="패스 154" d="M39 19.286h-3.429v12h-4.285V51h-5.143V31.286h-4.286v-12h-3.428v15.428h4.286v19.715h12V34.714H39z" style="fill:#fff" transform="translate(488.286 1629.571)"/>
+                <path data-name="패스 155" d="M22.714 6.429a6 6 0 1 0 6-6 6.018 6.018 0 0 0-6 6zm8.571 0a2.571 2.571 0 1 1-2.571-2.571 2.579 2.579 0 0 1 2.572 2.571z" style="fill:#fff" transform="translate(488.286 1629.571)"/>
+                <path data-name="패스 157" d="M48.429 35.571h-4.286V51h-6.857v3.429h10.285V39h4.286V21.857h-3.428z" style="fill:#fff" transform="translate(488.286 1629.571)"/>
+                <path data-name="패스 158" d="M37.286 10.714a6 6 0 1 0 6-6 6.018 6.018 0 0 0-6 6zm6-2.571a2.571 2.571 0 1 1-2.571 2.571 2.579 2.579 0 0 1 2.571-2.571z" style="fill:#fff" transform="translate(488.286 1629.571)"/>
+            </g>
+        </g>
+    </g>
+</svg>

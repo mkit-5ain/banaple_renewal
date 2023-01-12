@@ -10,6 +10,9 @@
     }
 }
 .food-pro { @include banaple-section;
+    &.quick-top-contents { margin-top: 36px; 
+        .description { padding-top: 0px; transition-delay: 0s; }
+    }
     .title { 
         line-height: 34px; 
         font-size: 40px; 
@@ -23,6 +26,7 @@
             transform: translate(0px, 0px); will-change: transform; opacity: 1;
         }
     }
+    .quick-image { text-align: center; }
     .description { 
         line-height: 30px; 
         padding-top: 40px; 
@@ -81,7 +85,107 @@
         }
     }
 }
+.contents-info-wrap { margin-top: 120px;
+    display: flex;
+    justify-content: center;
+    background: url('/assets/images/common/bg_sub_quick.png') 0 0 no-repeat; 
+    background-size: cover;
+    overflow: hidden;
+    .inner { min-width: 1136px; padding: 110px 0px;
+        .title { @include banaple-title; }
+        .service-list { display: flex; padding-top: 65px; gap: 78px;
+            @include activeFadein();
+            .list-item { position: relative; padding-top: 190px; min-width: 160px; text-align: center; @include beforeFadein(50%, 0);
+                @for $i from 1 through 5 {
+                    &:nth-child(#{$i}) { 
+                        background: url('../../assets/images/icon/i_quick_0#{$i}.svg') center 0 no-repeat; 
+                        &:after {
+                            content: '';
+                            position: absolute;
+                            top: 70px;
+                            right: -52px;
+                            width: 28px;
+                            height: 18px;
+                            background: url('../../assets/images/icon/i_quick_arrow_0#{$i}.svg') 0 0 no-repeat; 
+                        }
+                    }
+                    
+                }
+                &:nth-child(2) {
+                    &:after { right: -58px; }
+                }
+                &:nth-child(3) {
+                    &:after { right: -46px; }
+                }
+                .list-title { line-height: 26px; font-size: 26px; font-weight: bold; }
+                .list-description { line-height: 30px; padding-top: 10px; font-size: 20px; color: #666; }
+            }
+        }
+        .info-text-wrap { 
+            padding-top: 50px; 
+            margin-top: 50px; 
+            border-top: 1px solid #ddd; 
+            transform: translate(0px, 50%);
+            transition: 1s ease-in-out;
+            opacity: 0;
+            &.active { transform: translate(0px, 0px); opacity: 1; }
+            p {
+                position: relative;
+                line-height: 18px;
+                padding-bottom: 15px;
+                padding-left: 7px;
+                color: #666;
+                font-size: 18px;
+                &:before { 
+                    content: "";
+                    display: block;
+                    position: absolute;
+                    top: 7px;
+                    left: 0px;
+                    width: 3px;
+                    height: 3px;
+                    border-radius: 100%;
+                    background: #666;
+                }
+                &:last-child { padding-bottom: 0px; }
+            }
+        }
+    }
+}
 .food-pro-contents { margin-top: 110px;
+    &.quick-bottom-contents { margin-top: 0px; 
+        .list-wrap {
+            .list-item {
+                &:nth-child(odd) { background: none; } 
+                &:nth-child(even) { background: #f8f8f8; } 
+                &.last-item {
+                    .contents {
+                        .contents-title { padding-top: 0px; }
+                        .contents-description { padding-top: 0px;
+                            li { padding-left: 0px; margin-top: 23px; letter-spacing: -.5px;
+                                &:before { content: none; }
+                            }
+                        }
+                        .btn-download { 
+                            display: flex;
+                            width: 359px; 
+                            height: 74px;
+                            padding: 0px 20px;
+                            margin-top: 50px;
+                            font-size: 24px;
+                            font-weight: bold;
+                            color: #fff;
+                            text-align: left;
+                            letter-spacing: -1px;
+                            background: #1dcad3 url('../../assets/images/icon/i_quick_download.png') right 20px center no-repeat; 
+                            align-items: center;
+                            text-decoration: none;
+                        } 
+                    }
+                }
+            }
+        }
+    }
     .list-wrap {
         .list-item { padding: 110px 0px;
             &:nth-child(odd) { background: #f8f8f8; } 
@@ -148,6 +252,11 @@
         .text { line-height: 8.333vw; font-size: 5.556vw; }
     }
     .food-pro { width: auto; margin: 13.889vw auto 0vw;
+        &.quick-top-contents {
+            padding: 0px 5.556vw;
+            margin-top: 11.111vw;
+            .description { margin: 0px; }
+        }
         .title { line-height: 9.444vw; font-size: 6.667vw; }
         .description { 
             line-height: 6.944vw;
@@ -155,6 +264,9 @@
             margin: 0vw 5.556vw;
             font-size: 4.167vw;
             text-align: center;
+        }
+        .quick-image { 
+            img { width: 100%; }
         }
         .contents-form { margin-top: 13.889vw; flex-direction: column; align-items: center; gap: 0vw; 
             .banaple {
@@ -192,7 +304,60 @@
             }
         }
     }
+    .contents-info-wrap { margin-top: 14.167vw; background: url('../../assets/images/mobile/bg_sub_quick.png') 0 0 no-repeat; background-size: cover;
+        .inner { min-width: auto; padding: 13.889vw 5.556vw; 
+            .title { line-height: 9.444vw; padding: 0px 0px; font-size: 6.667vw; }
+            .service-list { 
+                padding-top: 0px;
+                margin-top: 11.111vw;
+                flex-direction: row;
+                flex-wrap: wrap;
+                justify-content: space-between;
+                gap: 11.111vw; 
+                .list-item { min-width: 36.111vw; padding-top: 43.889vw; background-size: 36.111vw!important; 
+                    &:nth-child(1),
+                    &:nth-child(3) { 
+                        &:after { 
+                            top: 16.667vw; 
+                            right:-11.667vw; 
+                            width: 7.778vw; 
+                            height: 5vw; 
+                            background-size: 7.778vw;
+                        }
+                    }
+                    &:nth-child(2),
+                    &:nth-child(4),
+                    &:nth-child(5) { content: none;} 
+                    .list-title { line-height: 6.111vw; font-size: 6.111vw; }
+                    .list-description { line-height: 7.222vw; font-size: 4.444vw; }
+                }
+            }
+            .info-text-wrap { padding-top: 8.333vw; margin-top: 8.333vw; 
+                p { 
+                    line-height: 6.944vw;
+                    padding-left: 1.944vw;
+                    padding-bottom: 2.778vw;
+                    font-size: 4.167vw;
+                    &:before { top: 2.778vw; width: 0.833vw; height: 0.833vw; }
+                }
+            }
+        }
+    }
     .food-pro-contents { padding: 2.778vw 0vw 0vw; margin-top: 0vw; 
+        &.quick-bottom-contents { padding: 0px; 
+            .list-wrap {
+                .list-item {
+                    .inner {
+                        .contents {
+                            .contents-title { padding-top: 4.167vw; }
+                            .contents-description { 
+                                li { padding-left: 1.944vw; }
+                            }
+                        }
+                    }
+                }
+            }
+        }
         .list-wrap {
             .list-item { padding: 13.889vw 0vw;
                 &:nth-child(even) {
@@ -207,6 +372,18 @@
                             li { line-height: normal; margin-top: 3.333vw; font-size: 4.444vw; 
                                 &:before { top: 2.778vw; }
                             }
+                        }
+                    }
+                }
+                &.last-item {
+                    .inner {
+                        .contents {
+                            .contents-description {
+                                li { line-height: 7.222vw; padding-left: 0px; margin-top: 3.333vw;
+                                    &:first-child { margin-top: 5.556vw; }
+                                } 
+                            }
+                            .btn-download {width: 100%; height: 15vw; font-size: 5vw; background-position: right 2.778vw center;}
                         }
                     }
                 }

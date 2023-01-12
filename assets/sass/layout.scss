@@ -3,7 +3,7 @@ header {
     top: 0px; 
     z-index: 100; 
     width: 100%;
-    background: rgba(255,255,255,0.85);
+    background: rgba(255,255,255,0.94);
     &.reverse { background: rgba(0,0,0,.08); 
         .category {
             &:after { opacity: 0.3; }
@@ -140,6 +140,7 @@ footer { padding: 50px 60px; background: #333;
     &.banaple { background: url('../../assets/images/common/banaple_sub_visual.png') 0 0 no-repeat;  background-size: cover; }
     &.service { background: url('../../assets/images/common/banapresso_sub_visual.png') 0 0 no-repeat;  background-size: cover; }
     &.recruit { background: url('../../assets/images/common/recruit_sub_visual.png') 0 0 no-repeat;  background-size: cover; }
+    &.quick-service { background: url('../../assets/images/common/quick_sub_visual.png') 0 0 no-repeat;  background-size: cover; }
     .title { line-height: 61px; font-size: 48px; font-weight: bold; color: #fff; }
     .description { 
         line-height: 34px; 
@@ -157,7 +158,7 @@ footer { padding: 50px 60px; background: #333;
         width: calc(100% - 40px); 
         height: 75px;
         padding: 0px 20px; 
-        background: rgba(255,255,255,.8);
+        background: rgba(255,255,255,.94);
         align-items: center;
         justify-content: space-between;
         /* 2023-01-10 */
@@ -166,6 +167,7 @@ footer { padding: 50px 60px; background: #333;
             position: absolute;
             bottom: 0px;
             left: 0px;
+            z-index: -1;
             width: 100%;
             height: 1px;
             background: #e8e8e8;

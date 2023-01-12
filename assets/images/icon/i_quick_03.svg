@@ -1,0 +1,26 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="160" height="160" viewBox="0 0 160 160">
+    <defs>
+        <clipPath id="7ypzfhor3a">
+            <path data-name="사각형 316" transform="translate(492 1630)" style="fill:#4a4a4a" d="M0 0h54v54H0z"/>
+        </clipPath>
+    </defs>
+    <g transform="translate(-443 -1577)">
+        <rect data-name="사각형 272" width="160" height="160" rx="80" transform="translate(443 1577)" style="fill:#1d8ad3"/>
+        <g data-name="마스크 그룹 74" transform="translate(6)" style="clip-path:url(#7ypzfhor3a)">
+            <g data-name="4213409_backup_data_database_server_storage_icon (1)">
+                <path data-name="패스 150" d="M.429 16.286h54V.857h-54zm3.429-12H51v8.571H3.857z" style="fill:#fff" transform="translate(491.571 1629.357)"/>
+                <path data-name="패스 151" d="M.429 35.143h54V19.714h-54zm3.429-12H51v8.571H3.857z" style="fill:#fff" transform="translate(491.571 1629.357)"/>
+                <path data-name="패스 152" d="M.429 54.429h54V39h-54zm3.429-12H51V51H3.857z" style="fill:#fff" transform="translate(491.571 1629.357)"/>
+                <path data-name="사각형 329" transform="translate(498 1636.214)" style="fill:#fff" d="M0 0h3.429v3.429H0z"/>
+                <path data-name="사각형 330" transform="translate(504.857 1636.214)" style="fill:#fff" d="M0 0h3.429v3.429H0z"/>
+                <path data-name="사각형 331" transform="translate(511.714 1636.214)" style="fill:#fff" d="M0 0h3.429v3.429H0z"/>
+                <path data-name="사각형 332" transform="translate(498 1654.643)" style="fill:#fff" d="M0 0h3.429v3.429H0z"/>
+                <path data-name="사각형 333" transform="translate(504.857 1654.643)" style="fill:#fff" d="M0 0h3.429v3.429H0z"/>
+                <path data-name="사각형 334" transform="translate(511.714 1654.643)" style="fill:#fff" d="M0 0h3.429v3.429H0z"/>
+                <path data-name="사각형 335" transform="translate(498 1674.357)" style="fill:#fff" d="M0 0h3.429v3.429H0z"/>
+                <path data-name="사각형 336" transform="translate(504.857 1674.357)" style="fill:#fff" d="M0 0h3.429v3.429H0z"/>
+                <path data-name="사각형 337" transform="translate(511.714 1674.357)" style="fill:#fff" d="M0 0h3.429v3.429H0z"/>
+            </g>
+        </g>
+    </g>
+</svg>

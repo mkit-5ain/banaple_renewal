@@ -1,0 +1,20 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="160" height="160" viewBox="0 0 160 160">
+    <defs>
+        <clipPath id="s4ixfxhz5a">
+            <path data-name="사각형 318" transform="translate(490 1630)" style="fill:#fff" d="M0 0h54v54H0z"/>
+        </clipPath>
+    </defs>
+    <g transform="translate(-443 -1577)">
+        <rect data-name="사각형 272" width="160" height="160" rx="80" transform="translate(443 1577)" style="fill:#2558a4"/>
+        <g data-name="마스크 그룹 77" transform="translate(6)" style="clip-path:url(#s4ixfxhz5a)">
+            <path data-name="사각형 342" transform="translate(490 1659)" style="fill:#fff" d="M0 0h4v24H0z"/>
+            <path data-name="사각형 343" transform="translate(540 1659)" style="fill:#fff" d="M0 0h4v24H0z"/>
+            <path data-name="사각형 344" transform="rotate(90 -567.5 1111.5)" style="fill:#fff" d="M0 0h4v54H0z"/>
+            <path data-name="패스 160" d="M37.714.429H17.143v7.714H.429v18H18v-3.429H3.857V11.571H51v11.143H37.714v3.429h16.715v-18H37.714zm-3.428 7.714H20.571V3.857h13.715z" transform="translate(489.571 1629.571)" style="fill:#fff"/>
+            <g data-name="사각형 345" style="stroke:#fff;stroke-width:3px;fill:none">
+                <path style="stroke:none" d="M0 0h21v10H0z" transform="translate(507 1649)"/>
+                <path style="fill:none" d="M1.5 1.5h18v7h-18z" transform="translate(507 1649)"/>
+            </g>
+        </g>
+    </g>
+</svg>

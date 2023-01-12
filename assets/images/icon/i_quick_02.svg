@@ -1,0 +1,25 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="160" height="160" viewBox="0 0 160 160">
+    <defs>
+        <clipPath id="27682rpeea">
+            <path data-name="사각형 315" transform="translate(490 1630)" style="fill:#fff" d="M0 0h54v54H0z"/>
+        </clipPath>
+    </defs>
+    <g transform="translate(-437 -1577)">
+        <rect data-name="사각형 272" width="160" height="160" rx="80" transform="translate(437 1577)" style="fill:#1da7d3"/>
+        <g data-name="마스크 그룹 73" style="clip-path:url(#27682rpeea)">
+            <g data-name="4213429_call_communication_fax_landline_phone_icon">
+                <path data-name="패스 148" d="M15.857 18.429H-3.571v36h19.428zM12.429 51H-.143V21.857h12.572z" transform="translate(494.571 1629.571)" style="fill:#fff"/>
+                <path data-name="패스 149" d="M18.429 54.429h36v-54h-36zm3.428-50.572H51V51H21.857z" style="fill:#fff" transform="translate(488.571 1629.571)"/>
+                <path data-name="사각형 320" transform="translate(514.714 1641)" style="fill:#fff" d="M0 0h3.429v3.429H0z"/>
+                <path data-name="사각형 321" transform="translate(523.285 1641)" style="fill:#fff" d="M0 0h3.429v3.429H0z"/>
+                <path data-name="사각형 322" transform="translate(531.857 1641)" style="fill:#fff" d="M0 0h3.429v3.429H0z"/>
+                <path data-name="사각형 323" transform="translate(514.714 1649.571)" style="fill:#fff" d="M0 0h3.429v3.429H0z"/>
+                <path data-name="사각형 324" transform="translate(523.285 1649.571)" style="fill:#fff" d="M0 0h3.429v3.429H0z"/>
+                <path data-name="사각형 325" transform="translate(531.857 1649.571)" style="fill:#fff" d="M0 0h3.429v3.429H0z"/>
+                <path data-name="사각형 326" transform="translate(514.714 1658.142)" style="fill:#fff" d="M0 0h3.429v3.429H0z"/>
+                <path data-name="사각형 327" transform="translate(523.285 1658.142)" style="fill:#fff" d="M0 0h3.429v3.429H0z"/>
+                <path data-name="사각형 328" transform="translate(531.857 1658.142)" style="fill:#fff" d="M0 0h3.429v3.429H0z"/>
+            </g>
+        </g>
+    </g>
+</svg>

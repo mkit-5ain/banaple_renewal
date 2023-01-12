@@ -1,0 +1,19 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="160" height="160" viewBox="0 0 160 160">
+    <defs>
+        <clipPath id="f34lw5773a">
+            <path data-name="사각형 317" transform="translate(496 1630)" style="fill:#4a4a4a" d="M0 0h54v54H0z"/>
+        </clipPath>
+    </defs>
+    <g transform="translate(-443 -1577)">
+        <rect data-name="사각형 272" width="160" height="160" rx="80" transform="translate(443 1577)" style="fill:#2362bf"/>
+        <g data-name="마스크 그룹 75" style="clip-path:url(#f34lw5773a)">
+            <g data-name="4213473_auto_car_parking_rental_transport_icon (1)">
+                <path data-name="패스 153" d="M45.514 8.143H9.343L5.057 27.857H.429v18.857h54V27.857H49.8zM51 43.286H3.857v-12H7.8l4.286-19.714h30.685l3.557 16.286H15v3.429h36z" style="fill:#fff" transform="translate(495.571 1625.714)"/>
+                <path data-name="사각형 338" transform="translate(536.285 1676.714)" style="fill:#fff" d="M0 0h7.714v3.429H0z"/>
+                <path data-name="사각형 339" transform="translate(502 1676.714)" style="fill:#fff" d="M0 0h7.714v3.429H0z"/>
+                <path data-name="사각형 340" transform="translate(503.714 1661.285)" style="fill:#fff" d="M0 0h3.429v3.429H0z"/>
+                <path data-name="사각형 341" transform="translate(538.857 1661.285)" style="fill:#fff" d="M0 0h3.429v3.429H0z"/>
+            </g>
+        </g>
+    </g>
+</svg>
